@@ -1,0 +1,11 @@
+.project-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list__heading {
+  font-size: 4.3rem;
+  text-align: center;
+}

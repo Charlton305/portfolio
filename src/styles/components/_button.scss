@@ -1,0 +1,88 @@
+.cta-btn {
+  background: linear-gradient(to left, white 50%, $secondary-color 50%, $primary-color) right;
+  background-size: 200% 100%;
+  border: none;
+  color: $secondary-color;
+  font-size: 2.7rem;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0.8rem $m-size;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+  &:hover {
+    background-position: left;
+    color: white;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+    
+  }
+}
+
+.welcome-button-container {
+  width: 172.8px;
+  position: relative;
+}
+
+.about-me__border {
+  background: linear-gradient(to left, $secondary-color, $primary-color);
+  height: 46px;
+  position: absolute;
+  left: -1.5px;
+  top: -1.5px;
+  width: 176px;
+  z-index: -5;
+
+  // @media (max-width: $desktop-breakpoint) {
+  //   display: none;
+  // }
+}
+
+.cta-btn--see-live {
+  font-size: 1.6rem;
+  width: 102.4px
+}
+
+.source-code__button-border {
+  background: linear-gradient(to left, $secondary-color, $primary-color);
+  height: 35px;
+  position: absolute;
+  left: -1.5px;
+  top: -1.5px;
+  width: 105.5px;
+  z-index: -5;
+
+  // @media (max-width: $desktop-breakpoint) {
+  //   display: none;
+  // }
+}
+
+.CV__button {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, white 50%) right;
+  background-size: 200% 100%;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 0.8rem $l-size;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+
+  &:hover {
+    background-position: left;
+    color: $secondary-color;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  }
+}
+
+.source-code-button-container {
+  position: relative;
+}
+
+.project__see-live-button {
+  background: none;
+  border: none;
+  color: $secondary-color;
+  font-weight: bold;
+}

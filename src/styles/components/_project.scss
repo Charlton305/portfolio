@@ -1,0 +1,28 @@
+.project__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.project__info-container {
+  padding-right: 6rem;
+  width: 37%;
+}
+
+.project__img-container {
+  margin-top: 2rem;
+  width: 63%;
+}
+
+.project__img {
+  width: 100%;
+  box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+.project__button-container {
+  align-items: center;
+  display: flex;
+  gap: 1rem
+}
