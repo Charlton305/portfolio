@@ -1,13 +1,14 @@
-
+import photo from "../assets/images/IMG_20211123_112315063_HDR.jpg"
+import cv from "../assets/keely.pdf"
 
 const AboutMe = () => {
 
   return (
-    <div className="about-me">
+    <div className="about-me" id="about">
         <h1 className="about-me__heading">ABOUT ME</h1>
         <div className="about-me__content-container">
           <div className="about-me__img-container">
-            <img className="about-me__img" src="/images/IMG_20211123_112315063_HDR.jpg" alt="a picture of me on holiday in Norway" />
+            <img className="about-me__img" src={photo} alt="a picture of me on holiday in Norway" />
           </div>
           <div className="about-me__text-container">
             <p>
@@ -24,7 +25,7 @@ const AboutMe = () => {
               I've always enjoyed travelling and exploring and I love getting out of my comfort zone and pushing myself. Some of my hobbies
               include drumming, skateboarding, keeping fit, reading and stroking any dogs that I happen to bump into!
             </p>
-            <button className="CV__button">View CV</button>
+            <a href={cv} target="_blank" className="CV__button">View CV</a>
           </div>
       </div>
     </div>

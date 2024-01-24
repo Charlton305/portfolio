@@ -1,28 +1,45 @@
 .project__container {
   display: flex;
-  justify-content: space-between;
   width: 100%;
-  margin-bottom: 10rem;
+  padding: 0 2rem;
+  margin-bottom: 10vw;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 
 .project__info-container {
-  padding-right: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 4vw;
   width: 37%;
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 }
 
 .project__img-container {
   margin-top: 2rem;
   width: 63%;
+
+  @media (max-width: 900px) {
+    width: 100%;
+    margin-top: 5rem;
+  }
 }
 
 .project__img {
   width: 100%;
   box-shadow: 10px 10px 5px #aaaaaa;
-
 }
 
 .project__button-container {
   align-items: center;
   display: flex;
-  gap: 1rem
+  gap: 1rem;
+  position: relative;
+  transition: top ease 0, 5s;
 }

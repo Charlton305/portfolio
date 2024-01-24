@@ -1,22 +1,45 @@
 .cta-btn {
-  background: linear-gradient(to left, white 50%, $secondary-color 50%, $primary-color) right;
-  background-size: 200% 100%;
-  border: none;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+  border-image-slice: 1;
+  position: relative;
   color: $secondary-color;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 1;
   padding: 0.8rem $m-size;
+  text-decoration: none;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
 
-  &:hover {
-    background-position: left;
-    color: white;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    background-image: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
   }
 
+  &:hover {
+    color: white;
+    &::after {
+      width: 100%;
+    }
+  }
   @media (min-width: $desktop-breakpoint) {
-    
   }
 }
 
@@ -25,64 +48,78 @@
   position: relative;
 }
 
-.about-me__border {
-  background: linear-gradient(to left, $secondary-color, $primary-color);
-  height: 46px;
-  position: absolute;
-  left: -1.5px;
-  top: -1.5px;
-  width: 176px;
-  z-index: -5;
-
-  // @media (max-width: $desktop-breakpoint) {
-  //   display: none;
-  // }
-}
-
 .cta-btn--see-live {
+  text-decoration: none;
+  min-width: 106px;
   font-size: 1.6rem;
-  width: 102.4px
 }
 
 .source-code__button-border {
   background: linear-gradient(to left, $secondary-color, $primary-color);
-  height: 35px;
+  height: 39px;
   position: absolute;
   left: -1.5px;
-  top: -1.5px;
-  width: 105.5px;
+  top: -5.5px;
+  width: 106.5px;
   z-index: -5;
-
-  // @media (max-width: $desktop-breakpoint) {
-  //   display: none;
-  // }
 }
 
 .CV__button {
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, white 50%) right;
-  background-size: 200% 100%;
-  border: 1px solid white;
+  background: none;
+  display: inline-block;
+  border: 2px solid white;
   color: white;
+  cursor: pointer;
   font-weight: bold;
   font-size: 2rem;
   line-height: 1;
+  margin-top: 2rem;
   padding: 0.8rem $l-size;
+  position: relative;
+  text-decoration: none;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
 
-  &:hover {
-    background-position: left;
-    color: $secondary-color;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    left: 0;
+    bottom: 0;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+    background: white;
+    z-index: -1;
+  }
+
+  &:hover {
+    color: $secondary-color;
+    z-index: 3;
+
+    &::after {
+      width: 100%;
+    }
   }
 }
 
-.source-code-button-container {
-  position: relative;
+.project__see-live-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35.2px;
 }
 
-.project__see-live-button {
+.project__source-code-button {
   background: none;
   border: none;
+  font-size: 1.6rem;
   color: $secondary-color;
+  display: inline-block;
   font-weight: bold;
+  min-width: 108px;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    transform: translateX(5px);
+  }
 }

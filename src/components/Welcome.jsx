@@ -1,4 +1,4 @@
-const Welcome = ({ scrollToSection }) => {
+const Welcome = () => {
   return (
     <div className="content-container welcome-container">
       <h1>
@@ -8,9 +8,13 @@ const Welcome = ({ scrollToSection }) => {
         Im a front-end web developer from{" "}
         <span className="welcome-container--blue">Sittingbourne, Kent.</span>
       </h1>
-      <div className="welcome-button-container">
-        <button className="cta-btn">About me</button>
-        <div className="about-me__border"></div>
+      <div className="welcome-buttons-container">
+        <div className="welcome-button-container">
+          <a className="cta-btn" href="#about">About me</a>
+        </div>
+        <div className="welcome-button-container">
+          <a className="cta-btn" href="#projects">Projects</a>
+        </div>
       </div>
     </div>
   );
