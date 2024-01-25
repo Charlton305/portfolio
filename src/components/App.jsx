@@ -1,20 +1,17 @@
-import React from "react"
-import Welcome from "./Welcome";
-import AboutMe from "./AboutMe";
-import ProjectsList from "./ProjectsList";
-import Contact from "./Contact";
+import { Routes, Route } from "react-router-dom";
+import React from "react";
+import Portfolio from "./Portfolio";
+import CV from "./CV";
 
 const App = () => {
-
   return (
     <>
-      <Welcome />
-      <AboutMe />
-      <ProjectsList />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/cv" element={<CV />} />
+      </Routes>
     </>
-  )
-
-}
+  );
+};
 
 export default App;
