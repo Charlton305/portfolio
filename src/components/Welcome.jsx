@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <div className="content-container welcome-container">
+    <div className="content-container welcome-container" id="welcome">
       <h1>
         Hi, my name is{" "}
         <span className="welcome-container--blue">Lee Charlton</span>
@@ -14,6 +14,9 @@ const Welcome = () => {
         </div>
         <div className="welcome-button-container">
           <a className="cta-btn" href="#projects">Projects</a>
+        </div>
+        <div className="welcome-button-container">
+          <a className="cta-btn" href="#contact">Contact</a>
         </div>
       </div>
     </div>
