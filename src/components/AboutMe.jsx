@@ -1,5 +1,5 @@
 import photo from "../assets/images/me.webp.jpg"
-import cv from "../assets/wag.pdf"
+import cv from "../assets/My-CV.pdf"
 
 const AboutMe = () => {
 

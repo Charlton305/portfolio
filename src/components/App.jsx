@@ -6,7 +6,6 @@ import Contact from "./Contact";
 
 const App = () => {
 
-
   return (
     <>
       <Welcome />

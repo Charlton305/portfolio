@@ -6,13 +6,13 @@ const Project = ({ textContent, image, title, liveSite, sourceCode }) => {
         <p>{textContent}</p>
 
         <div className="project__button-container">
-          <a href={liveSite} className="cta-btn cta-btn--see-live">See Live</a>
-          <a href={sourceCode}  className="project__source-code-button">Source Code</a>
+          <a href={liveSite} target="_blank" className="cta-btn cta-btn--see-live">See Live</a>
+          <a href={sourceCode} target="_blank"  className="project__source-code-button">Source Code</a>
         </div>
       </div>
 
       <div className="project__img-container">
-        <a href={liveSite}><img className="project__img" src={image} /></a>
+        <a href={liveSite} target="_blank"><img className="project__img" src={image} /></a>
       </div>
     </div>
   );

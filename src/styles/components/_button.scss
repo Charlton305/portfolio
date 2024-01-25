@@ -15,6 +15,7 @@
   padding: 0.8rem $m-size;
   text-decoration: none;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  width: 172.8px;
 
   &::after {
     content: "";
@@ -41,14 +42,9 @@
   }
 }
 
-.welcome-button-container {
-  width: 172.8px;
-  position: relative;
-}
-
 .cta-btn--see-live {
   text-decoration: none;
-  min-width: 106px;
+  width: fit-content;
   font-size: 1.6rem;
 }
 
