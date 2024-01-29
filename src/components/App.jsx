@@ -1,15 +1,16 @@
-import { Routes, Route } from "react-router-dom";
 import React from "react";
-import Portfolio from "./Portfolio";
-import CV from "./CV";
+import Welcome from "./Welcome";
+import AboutMe from "./AboutMe";
+import ProjectsList from "./ProjectsList";
+import Contact from "./Contact";
 
 const App = () => {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<Portfolio />} />
-        <Route path="/cv" element={<CV />} />
-      </Routes>
+      <Welcome />
+      <AboutMe />
+      <ProjectsList />
+      <Contact />
     </>
   );
 };

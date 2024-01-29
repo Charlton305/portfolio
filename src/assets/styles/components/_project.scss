@@ -1,8 +1,8 @@
 .project__container {
   display: flex;
-  width: 100%;
-  padding: 0 2rem;
   margin-bottom: 10vw;
+  padding: 0 2rem;
+  width: 100%;
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -26,21 +26,21 @@
   width: 63%;
 
   @media (max-width: 900px) {
-    width: 100%;
     margin-top: 5rem;
+    width: 100%;
   }
 
   :hover {
-    transform: scale(1.05);
     box-shadow: 20px 20px 15px #aaaaaa;
+    transform: scale(1.05);
     transition: all ease-in-out 0.3s;
   }
 }
 
 .project__img {
-  width: 100%;
   box-shadow: 10px 10px 5px #aaaaaa;
   transition: all ease-in-out 0.3s;
+  width: 100%;
 }
 
 .project__button-container {

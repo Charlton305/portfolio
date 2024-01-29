@@ -3,8 +3,8 @@
     135deg,
     $primary-color 0%,
     $secondary-color 100%
-  );
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    );
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   color: white;
   padding-bottom: 15rem;
   padding-top: 2rem;
@@ -38,16 +38,16 @@
   width: 50%;
   
   @media (max-width: 900px) {
-    width: 100%;
     padding: 0 2rem;
+    width: 100%;
   }
 }
 
 .about-me__img {
   border-radius: 2rem;
-  clip-path: circle(47%);
-  width: 30rem;
+  clip-path: circle(46%);
   max-width: 100%;
+  width: 33rem;
 }
 
 .about-me__text-container {
@@ -58,8 +58,8 @@
 
   @media (max-width: 900px) {
     margin-top: 2rem;
+    max-width: 95%;
     padding: 0;
     width: 55rem;
-    max-width: 95%;
   }
 }

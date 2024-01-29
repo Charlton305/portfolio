@@ -1,5 +1,5 @@
 import Project from "./Project";
-import { projects } from "../assets/projects"
+import { projects } from "../assets/projects";
 
 const ProjectsList = () => (
   <div className="content-container project-list" id="projects">
