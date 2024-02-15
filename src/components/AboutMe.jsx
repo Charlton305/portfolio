@@ -1,4 +1,5 @@
 import photo from "../assets/images/me.webp.jpg";
+import cv from "../assets/cv/Lee-Charlton-CV.pdf"
 
 const AboutMe = () => {
   return (
@@ -33,7 +34,7 @@ const AboutMe = () => {
             that I happen to bump into.
           </p>
           <a
-            href="https://lees-cv.tiiny.site"
+            href={cv}
             target="_blank"
             className="CV__button"
           >
