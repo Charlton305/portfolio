@@ -1,7 +1,7 @@
 const Project = ({ textContent, image, title, liveSite, sourceCode }) => {
   return (
     <div className="project__container">
-      <div className="project__info-container">
+      <div className="project__info-container load-hidden">
         <h2>{title}</h2>
         <p>{textContent}</p>
 
@@ -23,7 +23,7 @@ const Project = ({ textContent, image, title, liveSite, sourceCode }) => {
         </div>
       </div>
 
-      <div className="project__img-container">
+      <div className="project__img-container load-hidden">
         <a href={liveSite} target="_blank">
           <img className="project__img" src={image} />
         </a>

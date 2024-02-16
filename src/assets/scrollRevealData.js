@@ -10,20 +10,17 @@ export const targetElements = [
   {
     element: ".welcome-text-container",
     animation: {
-      delay: 300,
+      delay: 500,
       distance: "30px",
-      duration: 1000,
-      origin: "left"
+      origin: window.innerWidth > 900 ? "left" : "bottom"
     }
   },
   {
     element: ".welcome-button-container",
     animation: {
-      delay: 500,
-      distance: "30px",
-      duration: 1500,
+      delay: 1000,
       interval: 200,
-      origin: "left"
+      origin: window.innerWidth > 900 ? "left" : "bottom"
     }
   },
   {
@@ -36,37 +33,43 @@ export const targetElements = [
   {
     element: ".about-me__img-container",
     animation: {
-      delay: 300,
-      duration: 1000
+      delay: 600,
+      origin: "bottom"
     }
   },
   {
     element: ".about-me__text-container",
     animation: {
-      delay: 300,
-      duration: 1000,
-      origin: "left"
+      delay: 1000,
+      origin: window.innerWidth > 900 ? "left" : "bottom"
     }
   },
   {
     element: ".project-list__heading",
     animation: {
       delay: 300,
-      duration: 1000
+      distance: "0px"
     }
   },
   {
     element: ".project__info-container",
     animation: {
-      delay: 300,
-      duration: 1000
+      delay: 500,
+      origin: window.innerWidth > 900 ? "left" : "bottom"
     }
   },
   {
     element: ".project__img-container",
     animation: {
-      delay: 300,
-      duration: 1000
+      delay: 1000,
+      origin: window.innerWidth > 900 ? "right" : "bottom"
+    }
+  },
+  {
+    element: ".contact",
+    animation: {
+      delay: 800,
+      origin: "bottom"
     }
   }
 ];
