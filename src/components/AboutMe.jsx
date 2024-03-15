@@ -4,16 +4,16 @@ import cv from "../assets/cv/Lee-Charlton-CV.pdf"
 const AboutMe = () => {
   return (
     <div className="about-me" id="about">
-      <h1 className="about-me__heading load-hidden">ABOUT ME</h1>
+      <h1 className="about-me__heading">ABOUT ME</h1>
       <div className="about-me__content-container">
-        <div className="about-me__img-container load-hidden">
+        <div className="about-me__img-container">
           <img
             className="about-me__img"
             src={photo}
             alt="a picture of me on holiday in Norway"
           />
         </div>
-        <div className="about-me__text-container load-hidden">
+        <div className="about-me__text-container">
           <p>
             After 16 years in painting and decorating, 12 of which running a
             self employed business, I decided it was time for a change. I quit
