@@ -58,8 +58,11 @@
 
   @media (max-width: 900px) {
     margin-top: 2rem;
-    max-width: 95%;
+    max-width: 80%;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding: 0;
-    width: 55rem;
+    width: auto;
+    // width: 55rem;
   }
 }

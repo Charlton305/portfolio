@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Skate shop app",
     textContent:
-      "This app is the front-end of an e-commerce store designed to demonstrate my skills and understanding of React, React Router and state management. I gained some valuable experience using React Context in this project and I like the fact that it is fully scalable allowing you to add an unlimited number of products to the catalogue without the need to dig into the code and change the layout. Try adding some items to the basket and check out the results…",
+      "This is a front end e-commerce store designed to show my skills in and undestanding of React. In this project I used React router to handle the routing and React Context to handle state management. Making use of Reacts reuseable components makes it easy for the website owner to add and remove items from their catalogue.",
     image: skateShopImage,
     liveSite: "https://skate-shop.charltonwebdev.com",
     sourceCode: "https://github.com/Charlton305/e-commerce-project"
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Static pub website",
     textContent:
-      "A static website to show my skills in CSS and responsiveness. I decided to go back to basics with this project using only vanilla JavaScript and no frameworks as it had been a while since I had built anything in this way. It was nice to get some more experience in building a front-end project without frameworks and libraries as I believe it is important to have a solid understanding of the fundamentals.",
+      "A static website to show my skills in CSS and responsiveness. I decided to go back to basics with this project using only vanilla HTML, CSS and JavaScript without the use of any frameworks or libraries. It was nice to get some more experience in building a front-end project in this way as I believe it is important to have a solid understanding of the fundamentals to use alongside the frameworks.",
     image: pubWebsiteImage,
     liveSite: "https://white-horse.charltonwebdev.com",
     sourceCode: "https://github.com/Charlton305/pub-project"
