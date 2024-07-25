@@ -1,4 +1,4 @@
-const Project = ({ textContent, image, title, liveSite, sourceCode }) => {
+const Project = ({ textContent, image, title, liveSite }) => {
   return (
     <div className="project__container">
       <div className="project__info-container load-hidden">
@@ -12,13 +12,6 @@ const Project = ({ textContent, image, title, liveSite, sourceCode }) => {
             className="cta-btn see-live-button"
           >
             See Live
-          </a>
-          <a
-            href={sourceCode}
-            target="_blank"
-            className="project__source-code-button"
-          >
-            Source Code
           </a>
         </div>
       </div>

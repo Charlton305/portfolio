@@ -1,28 +1,19 @@
-import skateShopImage from "./images/project-3.png";
+import myLittleFrenchieimage from "./images/my-little-frenchie.png";
 import pubWebsiteImage from "./images/Screenshot 2024-01-12 065312.png";
 import expenseTrackerImage from "./images/Screenshot 2024-01-03 151630.png";
 
 const projects = [
   {
-    title: "Skate shop app",
+    title: "My Little Frenchie - pet sitting website",
     textContent:
-      "This is a front end e-commerce store designed to show my skills in and undestanding of React. In this project I used React router to handle the routing and React Context to handle state management. Making use of Reacts reuseable components makes it easy for the website owner to add and remove items from their catalogue.",
-    image: skateShopImage,
-    liveSite: "https://skate-shop.charltonwebdev.com",
-    sourceCode: "https://github.com/Charlton305/e-commerce-project"
-  },
-  {
-    title: "Static pub website",
-    textContent:
-      "A static website to show my skills in CSS and responsiveness. I decided to go back to basics with this project using only vanilla HTML, CSS and JavaScript without the use of any frameworks or libraries. It was nice to get some more experience in building a front-end project in this way as I believe it is important to have a solid understanding of the fundamentals to use alongside the frameworks.",
-    image: pubWebsiteImage,
-    liveSite: "https://white-horse.charltonwebdev.com",
-    sourceCode: "https://github.com/Charlton305/pub-project"
+      "I was asked by my client Shannon to design and build a website for her pet sitting business. She provided me with a base colour pink and some photos then let me get to work, providing input on certain aspects as the project progressed. The goal of the website was to act as a front for her business, providing potential clients with details and a way to get in contact with her. I also included a way for her to easily add blog posts and update images to keep her furry friends owners up to date!",
+    image: myLittleFrenchieimage,
+    liveSite: "https://my-little-frenchie.webflow.io/",
   },
   {
     title: "Expense tracker app",
     textContent:
-      "This is a basic CRUD app which allows you to keep track of your expendature. It was originally built as part of a REACT course using Webpack but I decided to rebuild it using Vite. I learnt a lot of new skills from this project including working with Redux, managing data and user authentication with Googles Firebase API and changing my REACT projects from using class components with Redux connect to using functional components with hooks.",
+      "This is a basic expense tracker app designed to showcase my skills as a web developer. It allows the user to login, to add, update and delete expenses and to retrieve any existing data when they return to the app.",
     image: expenseTrackerImage,
     liveSite: "http://expensify.charltonwebdev.com",
     sourceCode: "https://github.com/Charlton305/expensify"

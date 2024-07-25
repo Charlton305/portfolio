@@ -8,7 +8,7 @@ export const defaultProps = {
 
 export const targetElements = [
   {
-    element: ".welcome-text-reveal",
+    element: ".welcome-heading",
     animation: {
       delay: 500,
       distance: "30px",
@@ -16,24 +16,39 @@ export const targetElements = [
     }
   },
   {
-    element: ".reveal-button-1",
+    element: ".welcome-text",
     animation: {
       delay: 1000,
+      distance: "30px",
+      origin: window.innerWidth > 900 ? "left" : "bottom"
+    }
+  },
+  {
+    element: ".reveal-button-1",
+    animation: {
+      delay: 1500,
       origin: window.innerWidth > 900 ? "left" : "bottom"
     }
   },
   {
     element: ".reveal-button-2",
     animation: {
-      delay: 1300,
+      delay: 1800,
       origin: window.innerWidth > 900 ? "left" : "bottom"
     }
   },
   {
     element: ".reveal-button-3",
     animation: {
-      delay: 1600,
+      delay: 2100,
       origin: window.innerWidth > 900 ? "left" : "bottom"
+    }
+  },
+  {
+    element: ".welcome-scroll-button",
+    animation: {
+      delay: 2600,
+      distance:"0px"
     }
   },
   {

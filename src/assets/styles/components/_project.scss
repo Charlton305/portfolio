@@ -7,6 +7,10 @@
   @media (max-width: 900px) {
     flex-direction: column;
   }
+
+  @media (max-width: 500px) {
+    text-align: center;
+  }
 }
 
 .project__info-container {
@@ -15,6 +19,12 @@
   justify-content: center;
   padding-right: 4vw;
   width: 37%;
+
+  p {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
 
   @media (max-width: 900px) {
     width: 100%;
@@ -31,14 +41,14 @@
   }
 
   :hover {
-    box-shadow: 20px 20px 15px #aaaaaa;
+    box-shadow: 15px 15px 15px 5px #aaaaaa;
     transform: scale(1.05);
     transition: all ease-in-out 0.3s;
   }
 }
 
 .project__img {
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 6px 6px 5px 3px #aaaaaa;
   transition: all ease-in-out 0.3s;
   width: 100%;
 }
@@ -49,4 +59,8 @@
   gap: 1rem;
   position: relative;
   transition: top ease 0, 5s;
+
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
 }

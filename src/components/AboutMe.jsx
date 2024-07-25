@@ -14,31 +14,44 @@ const AboutMe = () => {
           />
         </div>
         <div className="about-me__text-container">
+          <h2>
+            {/* Hi, Im Lee and I build websites that look good and help to promote your brand and image. */}
+            I'm a web designer and developer based in Kent, UK.
+          </h2>
           <p>
-            After 16 years in painting and decorating, 12 of which running a
-            self employed business, I decided it was time for a change. I quit
-            decorating in december 2022 and spent most of 2023 learning and
-            practicing front-end web development.
+            I build attractive, functional websites that help you
+            to grow your business and brand.
+            I believe that less is more when it comes to web design
+            and this is reflected in my work.
+            How many times have you visited a website that is full
+            of noise and distraction when all you want is some basic
+            information or a phone number?
           </p>
           <p>
-            I have a solid understanding of HTML, CSS, Javascript and React.js
-            and believe I would be a great asset to any company looking to take
-            on a front-end developer. I am incredibly driven and self motivated
-            and always looking to learn new things and expand my skills and
-            knowledge in everything I do.
+            I have a keen eye for
+            detail which played a huge part in my previous career
+            as a painter and decorator and is the reason im not
+            happy until my product is pixel perfect. I work
+            closely with my clients through the whole development
+            process from design to build and enjoy bouncing ideas
+            back and forth until we are both happy with the outcome.
+            Click <a href="#projects">here</a> to see my latest work...
           </p>
           <p>
-            I enjoy travelling and exploring and I love getting out of my
-            comfort zone and pushing myself. Some of my hobbies include
-            drumming, keeping fit, skateboarding, reading and stroking any dogs
-            that I happen to bump into.
+            If you would like me to bring your dream website to life
+            then please get in touch. Email me at leejcharlton@hotmail.com
+            or contact me on 07947680701. I can provide a full service
+            from design to build allowing you as much or
+            as little input as you'd like. Or perhaps you have a
+            design that you'd like brought to life or maybe a
+            few adjustments to an existing website. Whatever it is,
+            I look forward to hearing from you.
           </p>
           <a
-            href={cv}
-            target="_blank"
-            className="CV__button"
+            href="#contact"
+            className="get-in-touch-button"
           >
-            View CV
+            Get in touch
           </a>
         </div>
       </div>

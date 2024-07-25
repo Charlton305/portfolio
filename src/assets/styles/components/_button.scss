@@ -1,9 +1,7 @@
 .cta-btn {
-  border-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
+  border-image: linear-gradient(135deg,
+      $primary-color 0%,
+      $secondary-color 100%);
   border-image-slice: 1;
   border-style: solid;
   border-width: 2px;
@@ -15,14 +13,12 @@
   position: relative;
   text-decoration: none;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  width: 172.8px;
+  width: 190px;
 
   &::after {
-    background-image: linear-gradient(
-      135deg,
-      $primary-color 0%,
-      $secondary-color 100%
-    );
+    background-image: linear-gradient(135deg,
+        $primary-color 0%,
+        $secondary-color 100%);
     bottom: 0;
     content: "";
     display: block;
@@ -36,6 +32,7 @@
 
   &:hover {
     color: white;
+
     &::after {
       width: 100%;
     }
@@ -45,20 +42,11 @@
 .see-live-button {
   font-size: 1.6rem;
   text-decoration: none;
-  width: fit-content;
+  display: flex;
+  justify-content: center;
 }
 
-.source-code__button-border {
-  background: linear-gradient(to left, $secondary-color, $primary-color);
-  height: 39px;
-  left: -1.5px;
-  position: absolute;
-  top: -5.5px;
-  width: 106.5px;
-  z-index: -5;
-}
-
-.CV__button {
+.get-in-touch-button {
   background: none;
   border: 2px solid white;
   color: white;
@@ -101,19 +89,4 @@
   display: flex;
   height: 35.2px;
   justify-content: center;
-}
-
-.project__source-code-button {
-  background: none;
-  border: none;
-  color: $secondary-color;
-  display: inline-block;
-  font-size: 1.6rem;
-  font-weight: bold;
-  min-width: 108px;
-  transition: ease-in-out 0.3s;
-
-  &:hover {
-    transform: translateX(5px);
-  }
 }
