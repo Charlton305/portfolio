@@ -1,5 +1,4 @@
-import photo from "../assets/images/me.webp.jpg";
-import cv from "../assets/cv/Lee-Charlton-CV.pdf"
+import photo from "../assets/images/me.jpg";
 
 const AboutMe = () => {
   return (
@@ -15,37 +14,29 @@ const AboutMe = () => {
         </div>
         <div className="about-me__text-container">
           <h2>
-            {/* Hi, Im Lee and I build websites that look good and help to promote your brand and image. */}
             I'm a web designer and developer based in Kent, UK.
           </h2>
           <p>
-            I build attractive, functional websites that help you
-            to grow your business and brand.
-            I believe that less is more when it comes to web design
-            and this is reflected in my work.
-            How many times have you visited a website that is full
-            of noise and distraction when all you want is some basic
-            information or a phone number?
+            I design and develop visually appealing, highly functional
+            websites that drive business growth and strengthen your brand.
+            My design philosophy centers on the principle that less is more.
+            As websites often suffer from clutter and distractions, I
+            prioritize clarity and simplicity, ensuring users can easily
+            find the information they need.
           </p>
           <p>
-            I have a keen eye for
-            detail which played a huge part in my previous career
-            as a painter and decorator and is the reason im not
-            happy until my product is pixel perfect. I work
-            closely with my clients through the whole development
-            process from design to build and enjoy bouncing ideas
-            back and forth until we are both happy with the outcome.
-            Click <a href="#projects">here</a> to see my latest work...
+            With a keen eye for detail, I approach every project with 
+            precision and a thoughtful strategy. I work closely with clients 
+            throughout the development process, from initial concept to final 
+            delivery, ensuring their vision is realized and their goals are 
+            achieved. Click <a href="#projects">here</a> to view my latest work...
           </p>
           <p>
-            If you would like me to bring your dream website to life
-            then please get in touch. Email me at leejcharlton@hotmail.com
-            or contact me on 07947680701. I can provide a full service
-            from design to build allowing you as much or
-            as little input as you'd like. Or perhaps you have a
-            design that you'd like brought to life or maybe a
-            few adjustments to an existing website. Whatever it is,
-            I look forward to hearing from you.
+          If you’re ready to bring your ideal website to life, I’d love to help. 
+          Whether you need a complete website from concept to launch or enhancements 
+          to an existing site, I offer comprehensive services tailored to your needs. 
+          For inquiries, please email me at lee@charltonwebdev.com or call 07947680701. 
+          I look forward to hearing from you.
           </p>
           <a
             href="#contact"

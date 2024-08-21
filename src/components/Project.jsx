@@ -1,4 +1,4 @@
-const Project = ({ textContent, image, title, liveSite }) => {
+const Project = ({ textContent, image, title, liveSite, altText }) => {
   return (
     <div className="project__container">
       <div className="project__info-container load-hidden">
@@ -18,7 +18,7 @@ const Project = ({ textContent, image, title, liveSite }) => {
 
       <div className="project__img-container load-hidden">
         <a href={liveSite} target="_blank">
-          <img className="project__img" src={image} />
+          <img className="project__img" src={image} alt={altText}/>
         </a>
       </div>
     </div>

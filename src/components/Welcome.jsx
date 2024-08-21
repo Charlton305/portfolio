@@ -7,7 +7,7 @@ const Welcome = () => {
         <h1 className="welcome-heading load-hidden">Hi, im
         <span className="welcome-container--blue"> Lee.</span>
         </h1>
-        <h1 className="welcome-text">I design and build attractive websites to help your business grow</h1>
+        <h1 className="welcome-text load-hidden">I design and build attractive websites to help your business grow</h1>
       </div>
         {/* <span className="welcome-container--blue"> Kent, United Kingdom</span> */}
       <div className="welcome-buttons-container">
@@ -27,7 +27,7 @@ const Welcome = () => {
           </a>
         </div>
       </div>
-      <div className="welcome-scroll-button-container"><a href="#about" className="welcome-scroll-button"><img className="welcome-scroll-button-image" src={downArrow}></img></a></div>
+      <div className="welcome-scroll-button-container load-hidden"><a href="#about" className="welcome-scroll-button"><img className="welcome-scroll-button-image" src={downArrow}></img></a></div>
     </div>
   );
 };
