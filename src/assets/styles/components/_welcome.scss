@@ -15,33 +15,33 @@
 .welcome-container {
   display: flex;
   flex-direction: column;
-  font-size: 2.7rem;
   font-weight: bold;
+  gap: 6rem;
   height: 100vh;
   justify-content: center;
   line-height: 1.3;
-  max-height: 100vh;
-  padding: 8rem 8rem;
+  padding: 8rem;
   position: relative;
 
   @media (max-width: 900px) {
     align-items: center;
-    font-size: clamp(13px, 3.5vw, 1.7rem);
-    gap: 3rem;
+    gap: 6rem;
     line-height: 1.6;
     text-align: center;
+  }
+
+  @media (max-width: 510px) {
+    padding: 3rem;
   }
 
   h1 {
     margin: 0
   }
+
+  @media (max-width: 330px) {
+    padding-top: 0;
+  }
 }
-
-.welcome-text-container {
-  margin-bottom: 6rem;
-}
-
-
 
 .welcome-container--blue {
   color: $secondary-color;
@@ -58,33 +58,36 @@
 }
 
 .welcome-scroll-button-container {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  right: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  right: 50%;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 5s;
-  animation: jumpInfinite 1.5s infinite;
+
+  @media (max-width: 330px) {
+    bottom: 1rem;
+  }
 }
 
 .welcome-scroll-button {
+  position: relative;
   display: flex;
+  height: 5rem;
   justify-content: center;
   align-items: center;
   padding: 10px;
   cursor: pointer;
-  // transition: all cubic-bezier(0.19, 1, 0.22, 1) 5s;
+
+  &:hover>.welcome-scroll-button-image {
+    opacity: 40%;
+  }
 }
 
 .welcome-scroll-button-image {
-  // animation: jumpInfinite 1.5s insfinite;
+  animation: jumpInfinite 1.5s infinite;
   width: 40px;
   opacity: 100%;
   transition: all .2s ease-in-out;
-
-  &:hover {
-    opacity: 50%;
-  }
 }

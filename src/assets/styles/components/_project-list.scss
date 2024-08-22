@@ -11,12 +11,12 @@
   @media (max-width: 900px) {
     margin: 3rem auto;
     max-width: 100%;
-    padding: 0 0 12rem 0;
+    padding: 0 3rem 12rem;
     width: 700px;
   }
-}
 
-.project-list__heading {
-  font-size: 4.3rem;
-  text-align: center;
+  @media (max-width: 500px) {
+    margin-top: 5rem;
+    padding: 0 1rem 12rem;
+  }
 }

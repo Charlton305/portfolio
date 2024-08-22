@@ -5,7 +5,7 @@ import sCharltonImage from "./images/s-charlton-screenshot.jpg";
 
 const projects = [
   {
-    title: "My Little Frenchie - Pet sitting website",
+    title: "My Little Frenchie - Pet sitting business",
     textContent:
       "I was asked by my client, Shannon, to design and build a website for her pet sitting business. She provided me with a base colour pink and some photos then let me get to work, providing input on certain aspects as the project progressed. The goal of the website was to act as a front for her business, providing potential clients with details and a way to get in contact with her. I also included a way for her to easily add blog posts and update images to keep her furry friends owners up to date!",
     image: myLittleFrenchieimage,
@@ -22,7 +22,7 @@ const projects = [
 
   },
   {
-    title: "S.Charlton Builders - Construction company website",
+    title: "S.Charlton Builders - Construction business",
     textContent:
       "This is a static website built for a local construction firm designed to showcase their work and provide details on the services they provide aswell as contact details and social media links.",
     image: sCharltonImage,
