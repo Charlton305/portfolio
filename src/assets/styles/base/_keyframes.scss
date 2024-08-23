@@ -1,0 +1,29 @@
+// Pulse effect for "grow" text in hero heading
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  52% {
+    transform: scale(1);
+  }
+}
+
+// Bounce effect for welcome scroll button
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+
+  50% {
+    margin-top: 20px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}

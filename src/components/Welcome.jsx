@@ -4,10 +4,10 @@ const Welcome = () => {
   return (
     <div className="content-container welcome-container" id="welcome">
       <div className="load-hidden welcome-text-container">
-        <h1>Hi, I'm
-          <span className="welcome-container--blue"> Lee.</span>
+        <h1>Hi,
+          <span className="welcome-container--blue"> I'm Lee.</span>
         </h1>
-        <h1>I design and build attractive websites to help your business grow</h1>
+        <h1>I design and build attractive websites to help your business <span className="welcome__heading-grow welcome-container--blue">grow</span></h1>
       </div>
       <div className="welcome-buttons-container">
         <div className="welcome-button-container reveal-button-1 load-hidden">

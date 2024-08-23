@@ -1,4 +1,6 @@
 const Contact = () => {
+  const year = new Date().getFullYear()
+
   return (
     <div className="contact load-hidden" id="contact">
       <h1 className="contact__heading">CONTACT ME</h1>
@@ -7,7 +9,7 @@ const Contact = () => {
       <a href="#welcome" className="get-in-touch-button back-to-top">
         Back To top
       </a>
-      <p className="copyright">© CharltonWebDev 2024</p>
+      <p className="copyright">© CharltonWebDev {year}</p>
     </div>
   );
 };
