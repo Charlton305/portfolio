@@ -52,8 +52,9 @@
 }
 
 .about-me__text-container {
+  padding-right: 2rem;
   width: 50%;
-  max-width: 760px;
+  max-width: 60rem;
 
   @media (max-width: 900px) {
     margin-top: 2rem;
