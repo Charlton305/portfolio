@@ -17,7 +17,7 @@ const projects = [
     textContent:
       "A blog website created with a CMS to give the user the ability to add and edit their own blog posts and images.",
     image: blogImage,
-    liveSite: "https://blog-8b3d49.webflow.io/",
+    liveSite: "https://travel.charltonwebdev.com/",
     altText: "A screenshot of a travel blog website."
 
   },
