@@ -3,11 +3,11 @@ import downArrow from "../assets/images/down-arrow.svg";
 const Welcome = () => {
   return (
     <div className="content-container welcome-container" id="welcome">
-      <div className="load-hidden welcome-text-container">
+      <div className="welcome-text-container">
         <h1>Hi,
           <span className="welcome-container--blue"> I'm Lee.</span>
         </h1>
-        <h1>I design and build attractive websites to help your business <span className="welcome__heading-grow welcome-container--blue">grow</span></h1>
+        <h1 className="load-hidden welcome-text-secondary">I design and build attractive websites to help your business <span className="welcome__heading-grow welcome-container--blue">grow</span></h1>
       </div>
       <div className="welcome-buttons-container">
         <div className="welcome-button-container reveal-button-1 load-hidden">
@@ -27,8 +27,8 @@ const Welcome = () => {
         </div>
       </div>
       <div className="welcome-scroll-button-container">
-        <a href="#about" className="welcome-scroll-button load-hidden">
-          <img className="welcome-scroll-button-image" src={downArrow}></img>
+        <a href="#about" aria-label="Click to scroll down" className="welcome-scroll-button load-hidden">
+          <img className="welcome-scroll-button-image" alt="An arrow pointing down" src={downArrow}></img>
         </a>
       </div>
     </div>

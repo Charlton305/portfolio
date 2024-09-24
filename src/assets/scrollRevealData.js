@@ -8,7 +8,7 @@ export const defaultProps = {
 
 export const targetElements = [
   {
-    element: ".welcome-text-container",
+    element: ".welcome-text-secondary",
     animation: {
       delay: 500,
       distance: "30px",

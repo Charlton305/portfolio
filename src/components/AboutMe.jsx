@@ -25,7 +25,7 @@ const AboutMe = () => {
             find the information they need.
           </p>
           <p>
-            With a keen eye for detail, I take pride in every project I create. I work closely with my clients
+            I have a keen eye for detail, taking pride in every project I create. I work closely with my clients
             throughout the development process, from initial design to final
             production, allowing as much or as little input as required to ensure their vision is realized and
             their goals are achieved. <a href="#projects" className="about-me__content-link">Click here</a> to

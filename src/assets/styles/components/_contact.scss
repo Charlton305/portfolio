@@ -26,10 +26,15 @@
 .contact__email {
   font-size: 2rem;
   padding: 0 1rem;
+  font-weight: 600;
 
   @media (max-width: 900px) {
     font-size: clamp(1.5rem, 2.1vw, 1.8rem);
   }
+}
+
+.phone {
+  margin-bottom: 1rem;
 }
 
 .back-to-top {
