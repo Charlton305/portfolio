@@ -29,7 +29,7 @@
   }
 }
 
-.welcome-container--blue {
+.text-blue {
   background: linear-gradient(135deg,
       $primary-color 0%,
       $secondary-color 100%);
@@ -40,8 +40,6 @@
 
 .welcome__heading-grow {
   display: inline-block;
-  // transform: scale(1);
-  // animation: pulse 5s infinite;
 }
 
 .welcome-buttons-container {

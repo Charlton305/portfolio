@@ -2,7 +2,7 @@ const Project = ({ textContent, image, title, liveSite, altText }) => {
   return (
     <div className="project__container">
       <div className="project__info-container load-hidden">
-        <h3>{title}</h3>
+        <h3 className="">{title}</h3>
         <p>{textContent}</p>
 
         <div className="project__button-container">

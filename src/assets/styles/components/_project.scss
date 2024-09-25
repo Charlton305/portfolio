@@ -3,6 +3,10 @@
   margin-bottom: 10vw;
   padding: 0 2rem;
   width: 100%;
+  
+  h3 {
+    display: inline;
+  }
 
   @media (max-width: 900px) {
     flex-direction: column;

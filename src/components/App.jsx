@@ -5,6 +5,7 @@ import ProjectsList from "./ProjectsList";
 import Contact from "./Contact";
 import scrollReveal from "../assets/scrollReveal";
 import { targetElements, defaultProps } from "../assets/scrollRevealData";
+import Services from "./Services";
 
 const App = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const App = () => {
     <>
       <Welcome />
       <AboutMe />
+      <Services />
       <ProjectsList />
       <Contact />
     </>

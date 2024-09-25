@@ -3,7 +3,7 @@ import photo from "../assets/images/Photo-of-me-in-norway.jpg";
 const AboutMe = () => {
   return (
     <div className="about-me" id="about">
-      <h2 className="about-me__heading text-center">ABOUT ME</h2>
+      <h2 className="about-me__heading text-center">A LITTLE BIT ABOUT ME...</h2>
       <div className="about-me__content-container">
         <div className="about-me__img-container">
           <img
