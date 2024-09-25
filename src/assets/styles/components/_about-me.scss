@@ -21,6 +21,8 @@
   align-items: flex-start;
   display: flex;
   column-gap: 4rem;
+  margin: auto;
+  max-width: 1360px;
   width: 100%;
 
   @media (max-width: 900px) {

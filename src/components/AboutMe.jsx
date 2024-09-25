@@ -14,29 +14,20 @@ const AboutMe = () => {
         </div>
         <div className="about-me__text-container">
           <h3>
-            I'm a web designer and developer based in Kent, UK.
+            I'm an independent web developer based in Sittingbourne, Kent.
           </h3>
           <p>
-            I design and develop visually appealing, highly functional
-            websites that drive business growth and strengthen your brand.
-            My design philosophy centers on the idea that less is more.
-            As websites often suffer from clutter and distractions, I
-            prioritize clarity and simplicity, ensuring users can easily
-            find the information they need.
+            I design and build professional websites that look good and help promote your brand. I'm all
+            about clean, simple designs, making sure your visitors find exactly what they need without the clutter.
           </p>
           <p>
-            I have a keen eye for detail, taking pride in every project I create. I work closely with my clients
-            throughout the development process, from initial design to final
-            production, allowing as much or as little input as required to ensure their vision is realized and
-            their goals are achieved. <a href="#projects" className="about-me__content-link">Click here</a> to
-            view my latest work...
+            From simple portfolios to pubs and restaurants looking to showcase menus and take bookings,
+            I build them all. I love collaborating with clients to bring their ideas to life, whether you're
+            starting from scratch or enhancing an existing site.
           </p>
           <p>
-            If you’re ready to bring your ideal website to life, I’d love to help.
-            Whether you need a complete website from concept to launch or enhancements
-            to an existing site, I offer comprehensive services tailored to your needs.
-            For inquiries, please email me at lee@charltonwebdev.com or call 07947680701.
-            I look forward to hearing from you.
+          I'm always up for a chat to discuss your ideas and how we can bring them to life. If you're 
+          interested in working together, get in touch! You can email me at lee@charltonwebdev.com or call 07947680701.
           </p>
           <a
             href="#contact"
