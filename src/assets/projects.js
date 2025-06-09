@@ -22,7 +22,7 @@ const projects = [
 
   },
   {
-    title: "S.Charlton Builders - Construction business",
+    title: "S.Charlton Builders - Construction firm",
     textContent:
       "This is a static website built for a local construction firm designed to showcase their work and provide details on the services they provide aswell as contact details and social media links.",
     image: sCharltonImage,

@@ -9,14 +9,19 @@
   padding: 10rem $m-size 0;
 
   @media (max-width: 900px) {
-    margin: 3rem auto;
+    margin: 5rem auto;
     max-width: 100%;
     padding: 0 3rem 12rem;
     width: 700px;
+    text-align: center;
   }
 
   @media (max-width: 500px) {
     margin-top: 5rem;
     padding: 0 1rem 12rem;
   }
+}
+
+.project-list__heading { 
+  text-align: center;
 }

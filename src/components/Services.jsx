@@ -1,8 +1,8 @@
 const Services = () => {
   return (
     <>
-      <div className="services">
-          <h2 className="services__heading">A ROUGH GUIDE TO MY SERVICES</h2>
+      <div className="services" id="services">
+          <h2 className="services__heading">SERVICES</h2>
         <div className="services__container">
           <div className="services__grid">
             <div className="services__grid-item">

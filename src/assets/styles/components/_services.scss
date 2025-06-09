@@ -1,6 +1,6 @@
 .services {
   padding: 0 36px;
-  margin-top: -400px;
+  margin-top: -60rem;
   z-index: 99;
   position: relative;
 }
@@ -28,7 +28,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-top: 1px solid #E6ECF8;
-  // border-radius: 12px;
 }
 
 .services__grid-item {
@@ -44,17 +43,15 @@
 
 @media (max-width: 768px) {
   .services__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
-
-@media (max-width: 480px) {
-  .services__grid {
-    grid-template-columns: 1fr;
+@media (max-width: 500px) {
+  .services {
+   margin-top: -35rem;
   }
 }
 
 .services__sub-heading {
-  // font-size: 18px;
   font-weight: 700;
 }

@@ -45,6 +45,13 @@ export const targetElements = [
     }
   },
   {
+    element: ".reveal-button-4",
+    animation: {
+      delay: 2400,
+      origin: window.innerWidth > 900 ? "left" : "bottom"
+    }
+  },
+  {
     element: ".welcome-scroll-button",
     animation: {
       delay: 2600,

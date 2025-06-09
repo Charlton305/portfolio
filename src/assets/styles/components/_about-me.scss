@@ -4,16 +4,16 @@
       $secondary-color 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   color: white;
-  padding: 6rem 7.9vw 55rem;
+  padding: 6rem 7.9vw 68rem;
 
   @media (max-width: 1000px) {
     clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
-    padding-bottom: 18rem;
+    padding-bottom: 65rem;
   }
 
   @media (max-width: 500px) {
     clip-path: none;
-    padding-bottom: 10rem;
+    padding-bottom: 40rem;
   }
 }
 
