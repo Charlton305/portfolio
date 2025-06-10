@@ -3,7 +3,8 @@
   flex-direction: column;
   font-weight: bold;
   gap: 6rem;
-  height: 100vh;
+  height: auto;
+  min-height: calc(var(--vh, 1vh) * 100);
   justify-content: center;
   line-height: 1.3;
   padding: 8rem;
@@ -14,6 +15,8 @@
     gap: 6rem;
     line-height: 1.6;
     text-align: center;
+    height: auto;
+    min-height: calc(var(--vh, 1vh) * 100);
   }
 
   @media (max-width: 510px) {
@@ -21,18 +24,31 @@
   }
 
   h1 {
-    margin: 0
+    margin: 0;
+    font-size: 6rem;
+    letter-spacing: -0.2rem;
+
+    @media (max-width: 900px) {
+      font-size: clamp(3.2rem, 8vw, 5rem);
+    }
+
+    @media (max-width: 330px) {
+      padding-top: 0;
+    }
   }
 
-  @media (max-width: 330px) {
-    padding-top: 0;
+  h2 {
+    font-size: 3rem;
+    margin: 0;
+
+    @media (max-width: 900px) {
+      font-size: clamp(2rem, 4.5vw, 3rem);
+    }
   }
 }
 
 .text-blue {
-  background: linear-gradient(135deg,
-      $primary-color 0%,
-      $secondary-color 100%);
+  background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -40,6 +56,11 @@
 
 .welcome__heading-grow {
   display: inline-block;
+}
+
+.welcome-content-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .welcome-buttons-container {
@@ -52,37 +73,9 @@
   display: flex;
 }
 
-.welcome-scroll-button-container {
-  position: absolute;
-  bottom: 4rem;
-  left: 50%;
-  right: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: 330px) {
-    bottom: 1rem;
-  }
-}
-
+// Make the scroll smoother and instant on mobile
+.cta-btn,
 .welcome-scroll-button {
-  position: relative;
-  display: flex;
-  height: 5rem;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  cursor: pointer;
-
-  &:hover>.welcome-scroll-button-image {
-    opacity: 40%;
-  }
-}
-
-.welcome-scroll-button-image {
-  animation: jumpInfinite 1.5s infinite;
-  width: 40px;
-  opacity: 100%;
-  transition: all .2s ease-in-out;
+  touch-action: manipulation; /* Prevents double-tap zoom delay */
+  -webkit-tap-highlight-color: transparent; /* Removes tap highlight */
 }

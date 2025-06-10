@@ -1,45 +1,71 @@
-import photo from "../assets/images/Photo-of-me-in-norway.jpg";
+import { Palette } from "lucide-react"
+import photo from "../assets/images/Photo-of-me-in-norway.jpg"
 
 const AboutMe = () => {
   return (
     <div className="about-me" id="about">
-      <h2 className="about-me__heading text-center">A LITTLE BIT ABOUT ME...</h2>
       <div className="about-me__content-container">
         <div className="about-me__img-container">
           <img
             className="about-me__img"
             src={photo}
-            alt="A man taking a selfie on the snowy Lofoten islands in Norway"
+            alt="Lee Charlton in Lofoten islands in Norway"
           />
         </div>
         <div className="about-me__text-container">
-          <h3>
-            I'm an independent web developer based in Sittingbourne, Kent.
-          </h3>
-          <p>
-            I design and build professional websites that look good and help promote your brand. I'm all
-            about clean, simple designs, making sure your visitors find exactly what they need without the clutter.
-          </p>
-          <p>
-            From simple portfolios to pubs and restaurants looking to showcase menus and take bookings,
-            I build them all. I love collaborating with clients to bring their ideas to life, whether you're
-            starting from scratch or enhancing an existing site.
-          </p>
-          <p>
-          I'm always up for a chat to discuss your ideas and how we can bring them to life. If you're 
-          interested in working together, get in touch! You can email me at lee@charltonwebdev.com or call 07947680701.
-          </p>
-          <a
-            href="#contact"
-            className="get-in-touch-button"
-          >
-            Get in touch
-          </a>
+          <h2 className="about-me__heading">
+            Websites That Work As Hard As You Do
+          </h2>
+
+          <div className="about-me__card">
+            {/* <h4 class="about-me__section-title text-blue">What i do</h4> */}
+            <p className="">
+              As an independent developer based in Sittingbourne, Kent, I
+              specialize in creating websites that don't just look great - they
+              work harder for your business. Every project starts with
+              understanding your goals and ends with a digital presence that
+              converts visitors into customers.
+            </p>
+          </div>
+          <div className="about-me__card">
+            <h4 className="about-me__section-title text-blue">My Approach</h4>
+            <p className="">
+              <strong>clean design meets smart functionality.</strong> No
+              unnecessary complexity, no confusing navigation—just websites that
+              your audience will love using and you'll be proud to share.
+            </p>
+          </div>
+
+          <div className="about-me__card">
+            <h4 className="about-me__section-title text-blue">Who I Work With</h4>
+            <p>
+              Whether you're a creative showcasing your portfolio, a restaurant
+              wanting to streamline bookings, or a local business ready to make
+              your mark online, I'll work closely with you to bring your vision
+              to life.
+            </p>
+          </div>
+
+          <div className="about-me__card">
+            <h4 className="about-me__section-title text-blue">
+              Ready To Get Started?
+            </h4>
+            <p>
+              I'd love to hear about your project. Email me at{" "}
+              <a href="mailto:lee@charltonwebdev.com">lee@charltonwebdev.com</a>{" "}
+              or call/text/whatsapp <a href="tel:07947680701">07947680701</a>{" "}
+              for a no-pressure chat about what we can create together.
+            </p>
+          </div>
         </div>
       </div>
-
+      <div className="about-me__cta-container">
+        <a href="#contact" className="get-in-touch-button">
+          Get in touch
+        </a>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe
