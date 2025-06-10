@@ -84,7 +84,6 @@ const Welcome = () => {
           <span className="text-blue">LEE CHARLTON</span>
         </h1>
         <h2 className="load-hidden welcome-text-secondary">
-          {/* <span className="text-blue">Web Developer</span> */}
           Website designer and developer specialising in small business websites
         </h2>
       </div>

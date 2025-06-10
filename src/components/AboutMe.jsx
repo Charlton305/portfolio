@@ -1,4 +1,3 @@
-import { Palette } from "lucide-react"
 import photo from "../assets/images/Photo-of-me-in-norway.jpg"
 
 const AboutMe = () => {
@@ -18,7 +17,7 @@ const AboutMe = () => {
           </h2>
 
           <div className="about-me__card">
-            {/* <h4 class="about-me__section-title text-blue">What i do</h4> */}
+            <h4 className="about-me__section-title text-blue">What i do</h4>
             <p className="">
               As an independent developer based in Sittingbourne, Kent, I
               specialize in creating websites that don't just look great - they
@@ -30,7 +29,7 @@ const AboutMe = () => {
           <div className="about-me__card">
             <h4 className="about-me__section-title text-blue">My Approach</h4>
             <p className="">
-              <strong>clean design meets smart functionality.</strong> No
+              <strong>Clean design meets smart functionality.</strong> No
               unnecessary complexity, no confusing navigation—just websites that
               your audience will love using and you'll be proud to share.
             </p>
