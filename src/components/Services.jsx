@@ -2,7 +2,7 @@ const Services = () => {
   return (
     <>
       <div className="services" id="services">
-          <h2 className="services__heading">SERVICES</h2>
+          <h2 className="services__heading">WHAT I OFFER</h2>
         <div className="services__container">
           <div className="services__grid">
             <div className="services__grid-item">
@@ -13,7 +13,7 @@ const Services = () => {
               <p>Perfect for anyone looking to create an online presence for their
                 small business or personal portfolio.</p>
               <h4 className="services__sub-heading text-blue">How much does it cost?</h4>
-              <p>A simple static site could cost as little as £250 plus hosting,
+              <p>A simple static site could cost as little as £350 plus hosting,
                 depending on personal needs.</p>
             </div>
             <div className="services__grid-item">
@@ -26,7 +26,7 @@ const Services = () => {
                 along with contact and booking forms to make it easy for customers to get
                 in touch</p>
               <h4 className="services__sub-heading text-blue">How much does it cost?</h4>
-              <p>A medium - large site can cost from around £500 plus hosting but can
+              <p>A medium - large site can cost from around £800 plus hosting but can
                 vary depending on personal needs and the level of customisation required.</p>
             </div>
             <div className="services__grid-item">

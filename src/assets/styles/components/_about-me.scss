@@ -6,7 +6,7 @@
   );
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   color: white;
-  padding: 6rem 3.6rem 68rem;
+  padding: 10rem 2rem 68rem;
 
   @media (max-width: 1000px) {
     clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
@@ -20,15 +20,28 @@
 }
 
 .about-me__heading {
+  text-align: center;
+  max-width: 80rem;
   font-size: 4.8rem;
-  margin: 0px;
-  margin-bottom: 2rem;
+  margin: 0px auto 2rem;
   line-height: normal;
+
+  @media (max-width: 900px) {
+    font-size: clamp(3.2rem, 8vw, 4.8rem);
+  }
+}
+
+.about-me__subheading {
+  font-size: 1.8rem;
+  max-width: 80rem;
+  margin: auto;
+  text-align: center;
 }
 
 .about-me__content-container {
   display: flex;
-  margin-top: 7rem;
+  margin-top: 12rem;
+  margin-bottom: 8rem;
   max-width: 1360px;
   width: 100%;
 
@@ -92,7 +105,7 @@
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin-bottom: 2rem;
 
@@ -111,6 +124,13 @@
     font-weight: 700;
     text-decoration: none;
   }
+}
+
+.about-me__card--get-started {
+  @extend .about-me__card;
+
+  margin: auto;
+  max-width: 80rem;
 }
 
 .about-me__cta-container {
