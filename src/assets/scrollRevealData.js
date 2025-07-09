@@ -66,18 +66,43 @@ export const targetElements = [
     }
   },
   {
+    element: ".about-me__subheading",
+    animation: {
+      delay: 300,
+    }
+  },
+  {
     element: ".about-me__img-container",
     animation: {
-      delay: 600,
-      origin: "bottom"
+      delay: 300,
+      origin: "left"
     }
   },
   {
     element: ".about-me__text-container",
     animation: {
-      delay: 1000,
-      origin: window.innerWidth > 900 ? "left" : "bottom"
+      delay: 300,
+      origin: window.innerWidth > 900 ? "right" : "bottom"
     }
+  },
+  {
+    element: ".about-me__card--get-started",
+    animation: {
+      delay: 300,
+      }
+  },
+  {
+    element: ".services__heading",
+    animation: {
+      delay: 300,
+      distance: "0px"
+      }
+  },
+  {
+    element: ".services__container",
+    animation: {
+      delay: 300,
+      }
   },
   {
     element: ".project-list__heading",
