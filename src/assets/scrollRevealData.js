@@ -68,21 +68,21 @@ export const targetElements = [
   {
     element: ".about-me__subheading",
     animation: {
-      delay: 300,
+      delay: 600,
     }
   },
   {
     element: ".about-me__img-container",
     animation: {
-      delay: 300,
+      delay: 600,
       origin: "left"
     }
   },
   {
     element: ".about-me__text-container",
     animation: {
-      delay: 300,
-      origin: window.innerWidth > 900 ? "right" : "bottom"
+      delay: 900,
+      origin: "bottom"
     }
   },
   {

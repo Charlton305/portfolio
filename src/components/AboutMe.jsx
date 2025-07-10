@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import photo from "../assets/images/Photo-of-me-in-norway.jpg"
+import logo from "../assets/images/logo.svg"
 
 const AboutMe = () => {
   useEffect(() => {
@@ -28,40 +29,51 @@ const AboutMe = () => {
       <h2 className="about-me__heading">
         PROFESSIONAL WEBSITES WITH A PERSONAL TOUCH
       </h2>
-        <p className="about-me__subheading">
-          At Charlton Web Development, I build professional, attractive websites
-          optimised for speed and performance. I handle all the technical
-          decisions whilst working closely with my clients, allowing as much or
-          as little input as needed to achieve a truly personal experience...
-        </p>
+      <p className="about-me__subheading">
+        At Charlton Web Development, I build professional, attractive websites
+        that help your business grow. I handle all the technical
+        decisions whilst working closely with my clients, allowing as much or as
+        little input as needed to achieve a truly personal experience...
+      </p>
       <div className="about-me__content-container">
+        <h3 className="meet-your-dev--mobile">Meet your developer...</h3>
         <div className="about-me__img-container">
           <img
             className="about-me__img"
             src={photo}
             alt="Lee Charlton in Lofoten islands in Norway"
           />
+          <div className="about-me__image-text-container">
+            <div>
+              <p className="about-me__image-text-name text-blue">
+                Lee Charlton
+              </p>
+              <p className="about-me__image-text-job">Web Developer</p>
+            </div>
+            <img className="about-me__image-text-image" src={logo} />
+          </div>
         </div>
         <div className="about-me__text-container">
-          <h3 className="">Meet your developer...</h3>
+          <h3 className="meet-your-dev--desktop">Meet your developer...</h3>
           <div className="about-me__card">
             <h4 className="about-me__section-title text-blue">Who am I?</h4>
             <p className="">
-              I'm Lee, an independent developer based in Sittingbourne, Kent,
-              with a passion for creating websites that don't just look
-              great—they work harder for your business. Every project starts
-              with understanding your goals and ends with a digital presence
-              that converts visitors into customers.
+              I'm Lee, an independent web developer from Sittingbourne, Kent,
+              building professional websites and web apps for small businesses
+              around the world. I take pride in my work and the close
+              relationships I build with my clients. Whether that means coding
+              from scratch or using platforms such as Shopify and Webflow, I'll
+              choose the best approach that fits your needs.
             </p>
           </div>
           <div className="about-me__card">
             <h4 className="about-me__section-title text-blue">My Approach</h4>
             <p className="">
-              <strong>Clean design meets smart functionality.</strong> I believe
-              in keeping things simple and effective—no unnecessary complexity,
-              no confusing navigation. Just websites that your audience will
-              love using and you'll be proud to share, backed by ongoing support
-              you can actually rely on.
+              I keep things simple because simple works. Clean layouts, easy
+              navigation and modern styling that doesn't get in the way of your
+              message. No fancy tricks or confusing menus - just websites that
+              look professional and make sense to your visitors. Your customers
+              shouldn't have to think twice about how to use your site.
             </p>
           </div>
 
@@ -70,11 +82,12 @@ const AboutMe = () => {
               Who I Work With
             </h4>
             <p>
-              Whether you're a creative showcasing your portfolio, a restaurant
-              wanting to streamline bookings, or a local business ready to make
-              your mark online, I'll work closely with you to bring your vision
-              to life. I'm here for the long haul—building lasting partnerships
-              and watching your business grow.
+              I work with all kinds of small businesses. Local pubs and
+              restaurants looking to showcase their current menus and take
+              bookings online. Construction companies who need to display their
+              work and make it easy for customers to get in touch. Creative
+              professionals building their portfolios. Really, any business
+              owner who wants a website that works as hard as they do.
             </p>
           </div>
         </div>
