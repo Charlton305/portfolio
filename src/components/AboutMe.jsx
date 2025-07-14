@@ -2,6 +2,8 @@ import { useEffect } from "react"
 import photo from "../assets/images/Photo-of-me-in-norway.jpg"
 import logo from "../assets/images/logo.svg"
 
+import { MonitorSmartphone, Zap, SearchCheck } from "lucide-react"
+
 const AboutMe = () => {
   useEffect(() => {
     const button = document.querySelector(".get-in-touch-button")
@@ -31,12 +33,53 @@ const AboutMe = () => {
       </h2>
       <p className="about-me__subheading">
         At Charlton Web Development, I build professional, attractive websites
-        that help your business grow. I handle all the technical
-        decisions whilst working closely with my clients, allowing as much or as
-        little input as needed to achieve a truly personal experience...
+        that help your business grow. I handle all the technical decisions
+        whilst working closely with my clients, allowing as much or as little
+        input as needed to achieve a truly personal experience...
       </p>
+
+      <div className="about-me__info-container">
+        <div className="about-me__info-box">
+          <MonitorSmartphone className="about-me__icon" size={50} />
+          <h4 className="">FULLY RESPONSIVE</h4>
+          <p>
+            Your website will look perfect and function flawlessly on all
+            devices - from mobile phones to tablets to desktop computers. Every
+            element adapts beautifully to any screen size for the best user
+            experience.
+          </p>
+        </div>
+        <div className="about-me__info-box">
+          <Zap className="about-me__icon" size={50} />
+          <h4 className="">OPTIMIZED PAGE SPEED</h4>
+          <p>
+            Fast-loading websites keep visitors engaged and improve search
+            rankings. I optimize images, streamline code, and use modern
+            techniques to ensure your site loads quickly, reducing bounce rates
+            and improving conversions.
+          </p>
+        </div>
+        <div className="about-me__info-box">
+          <SearchCheck className="about-me__icon" size={50} />
+          <h4 className="">SEO OPTIMIZED</h4>
+          <p>
+            Built with search engines in mind from the ground up. Clean code
+            structure, proper meta tags, fast loading speeds, and SEO best
+            practices help your website rank better in Google search results and
+            attract more visitors.
+          </p>
+        </div>
+      </div>
+
+      <div className="about-me__cta-container">
+        <a href="#contact" className="get-in-touch-button">
+          <span className="button-text">Get in touch</span>
+          <div className="white-background"></div>
+        </a>
+      </div>
+
       <div className="about-me__content-container">
-        <h3 className="meet-your-dev--mobile">Meet your developer...</h3>
+        <h2 className="meet-your-dev--mobile">Meet your developer...</h2>
         <div className="about-me__img-container">
           <img
             className="about-me__img"
@@ -54,7 +97,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="about-me__text-container">
-          <h3 className="meet-your-dev--desktop">Meet your developer...</h3>
+          <h2 className="meet-your-dev--desktop">Meet your developer...</h2>
           <div className="about-me__card">
             <h4 className="about-me__section-title text-blue">Who am I?</h4>
             <p className="">
@@ -103,12 +146,6 @@ const AboutMe = () => {
           no-pressure chat about what we can create together.
         </p>
       </div>
-      {/* <div className="about-me__cta-container">
-        <a href="#contact" className="get-in-touch-button">
-          <span className="button-text">Get in touch</span>
-          <div className="white-background"></div>
-        </a>
-      </div> */}
     </div>
   )
 }

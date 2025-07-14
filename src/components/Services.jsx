@@ -5,7 +5,6 @@ const TickIcon = () => (
     fill="none"
     viewBox="0 0 16 16"
     className="tick-icon"
-    style={{ width: "20px", height: "20px", fill: "#10B981", color: "#10B981" }}
   >
     <path
       fill="currentColor"
@@ -32,7 +31,7 @@ const Services = () => {
       "Real-time updates",
       "User authentication",
       "Database integration",
-      "Scalable architecture",
+      "API intergrations",
     ],
     cms: [
       "Easy content management",
@@ -49,77 +48,109 @@ const Services = () => {
         <div className="services__container">
           <div className="services__grid">
             <div className="services__grid-item">
-              <h3 className="text-blue">Static Websites</h3>
-              <p>
-                Professional websites ranging from simple landing pages to
-                comprehensive business sites with multiple pages and contact
-                forms.
-              </p>
-              <h4 className="services__sub-heading text-blue">
-                Who is it for?
-              </h4>
-              <p>
-                Perfect for businesses and individuals looking to establish
-                their online presence, from basic portfolios to detailed service
-                showcases with booking functionality.
-              </p>
-              <h4 className="services__sub-heading text-blue">Key features</h4>
-              <ul>
-                {features.static.map((feature, index) => (
-                  <li key={index}>
-                    <TickIcon />
-                    <p>{feature}</p>
-                  </li>
-                ))}
-              </ul>
+              <div className="services__grid-paragraph">
+                <h3 className="text-blue">Static Websites</h3>
+                <p>
+                  Traditional websites that showcase your business without
+                  requiring user accounts or databases. From simple one-page
+                  landing sites to comprehensive multi-page business websites
+                  with contact forms, galleries, and service information.
+                </p>
+              </div>
+              <div className="services__grid-paragraph">
+                <h4 className="services__sub-heading text-blue">
+                  Who is it for?
+                </h4>
+                <p>
+                  Ideal for businesses, freelancers, and organizations who need
+                  an effective online presence to display their work, services,
+                  or products. Perfect when you need to inform visitors and
+                  generate leads without complex interactive features.
+                </p>
+              </div>
+              <div className="services__grid-paragraph">
+                <h4 className="services__sub-heading text-blue">
+                  Key features
+                </h4>
+                <ul>
+                  {features.static.map((feature, index) => (
+                    <li key={index}>
+                      <TickIcon />
+                      <p>{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
             <div className="services__grid-item">
-              <h3 className="text-blue">Large Static Sites</h3>
-              <p>
-                A medium to large website, usual 4 - 10 pages, for displaying
-                detailed information along with contact and booking forms.
-              </p>
-              <h4 className="services__sub-heading text-blue">
-                Who is it for?
-              </h4>
-              <p>
-                These websites are great for businesses looking to grow their
-                brand and provide detailed information about products, services
-                and menus offered, along with contact and booking forms to make
-                it easy for customers to get in touch
-              </p>
-              <h4 className="services__sub-heading text-blue">
-                How much does it cost?
-              </h4>
-              <p>
-                A medium - large site can cost from around £800 plus hosting but
-                can vary depending on personal needs and the level of
-                customisation required.
-              </p>
+              <div className="services__grid-paragraph">
+                <h3 className="text-blue">Web Apps</h3>
+                <p>
+                  Custom-built interactive applications that run in your
+                  browser. Think user management systems, booking platforms,
+                  inventory trackers, or customer portals - anything that needs
+                  user accounts, data storage, and real-time functionality.
+                </p>
+              </div>
+              <div className="services__grid-paragraph">
+                <h4 className="services__sub-heading text-blue">
+                  Who is it for?
+                </h4>
+                <p>
+                  Perfect for businesses that need more than a website - those
+                  requiring user login systems, data management, workflow
+                  automation, or custom tools that don't exist off-the-shelf.
+                </p>
+              </div>
+              <div className="services__grid-paragraph">
+                <h4 className="services__sub-heading text-blue">
+                  Key features
+                </h4>
+                <ul>
+                  {features.webApps.map((feature, index) => (
+                    <li key={index}>
+                      <TickIcon />
+                      <p>{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
             <div className="services__grid-item">
-              <h3 className="text-blue">CMS and E-Commerce</h3>
-              <p>
-                A dynamic website such as a blog or an online store, which
-                allows you, the website owner, to add and edit content or
-                products.
-              </p>
-              <h4 className="services__sub-heading text-blue">
-                Who is it for?
-              </h4>
-              <p>
-                For anybody looking to start a blog or a small business looking
-                to sell products online with an easy to use interface.
-              </p>
-              <h4 className="services__sub-heading text-blue">
-                How much does it cost?
-              </h4>
-              <p>
-                Given the unique nature of each website, it can be difficult to
-                provide a specific price. However, feel free to get in touch and
-                I'll be happy to discuss ideas with you and provide a
-                personalised quote.
-              </p>
+              <div className="services__grid-paragraph">
+                <h3 className="text-blue">CMS and E-Commerce</h3>
+                <p>
+                  Content-managed websites and online stores that put you in
+                  control. These platforms let you easily add blog posts, update
+                  product listings, manage inventory, and process payments - all
+                  through user-friendly admin panels without needing technical
+                  knowledge.
+                </p>
+              </div>
+              <div className="services__grid-paragraph">
+                <h4 className="services__sub-heading text-blue">
+                  Who is it for?
+                </h4>
+                <p>
+                  Great for bloggers who want to publish regularly, retailers
+                  ready to sell online, or any business needing to frequently
+                  update their content. Ideal when you need the flexibility to
+                  manage your site independently.
+                </p>
+              </div>
+              <div className="services__grid-paragraph">
+                <h4 className="services__sub-heading text-blue">
+                  Key features
+                </h4>
+                <ul>
+                  {features.cms.map((feature, index) => (
+                    <li key={index}>
+                      <TickIcon />
+                      <p>{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>

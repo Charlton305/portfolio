@@ -27,13 +27,16 @@
   background-color: white;
   max-width: 1320px;
   margin: auto;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1060px) {
+    border-radius: 1rem;
+    overflow: hidden;
     max-width: 70rem;
   }
 }
@@ -53,7 +56,7 @@
   border-top: 1px solid #e6ecf8;
   max-width: 100%;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1060px) {
     display: flex;
     flex-direction: column;
   }
@@ -64,8 +67,16 @@
   border-right: 1px solid #e6ecf8;
   padding: 20px 35px;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 
-  @media (max-width: 1000px) {
+  // Target the middle div (2nd child)
+  > div:nth-child(2) {
+    flex-grow: 1;
+  }
+
+  @media (max-width: 1060px) {
     border-right: none;
     border-bottom: 1px solid #e6ecf8;
     padding-bottom: 5rem;
@@ -79,6 +90,10 @@
   p {
     max-width: 100%;
   }
+
+  h4 {
+    font-size: 1.8rem;
+  }
 }
 
 // .services__features-container {
@@ -89,6 +104,10 @@
 .tick-icon {
   margin-right: 1.5rem;
   flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  fill: #10b981;
+  color: #10b981;
 }
 
 .services__grid-item:last-child {
