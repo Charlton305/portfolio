@@ -22,13 +22,8 @@
 .about-me__heading {
   text-align: center;
   max-width: 80rem;
-  font-size: 4.8rem;
   margin: 0px auto 2rem;
   line-height: normal;
-
-  @media (max-width: 1280px) {
-    font-size: clamp(3.2rem, 4vw, 4rem);
-  }
 }
 
 .about-me__subheading {
@@ -45,6 +40,11 @@
   max-width: 1320px;
   margin: 6rem auto 0;
   gap: 3rem;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+    max-width: 80rem;
+  }
 }
 
 .about-me__info-box {
@@ -52,42 +52,17 @@
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   border-radius: 1rem;
-  padding: 4rem;
+  padding: clamp(2.5rem, 6vw, 3.5rem);
   background: white;
   color: black;
-  transition: all 0.3s ease; // Smooth transition
-  
-  // Hover effect - invert colors
-  &:hover {
-    background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-    color: white;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    transform:translateY(-5px);
-    
-    h4 {
-      // color: white;
-      // Override the gradient text effect
-      background: white;
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
-    }
-    
-    p {
-      color: white;
-    }
-    
-    .about-me__icon {
-      color: white;
-    }
-  }
-  
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+
   h4 {
     margin: 0;
     font-size: 2rem;
     display: inline-block;
-    
-    transition: all 0.3s ease; // Smooth transition
+
+    transition: all 0.3s ease;
     background: linear-gradient(
       135deg,
       $primary-color 0%,
@@ -100,7 +75,36 @@
 
   p {
     color: $secondary-text-color;
-    transition: all 0.3s ease; // Smooth color transition
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+  }
+
+  // Hover effect - invert colors
+  &:hover {
+    background: linear-gradient(
+      135deg,
+      $primary-color 0%,
+      $secondary-color 100%
+    );
+    color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+
+    h4 {
+      // Override the gradient text effect
+      background: white;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    p {
+      color: white;
+    }
+
+    .about-me__icon {
+      color: white;
+    }
   }
 }
 
@@ -108,7 +112,7 @@
   display: block;
   color: $primary-color;
   margin-bottom: 1rem;
-  transition: color 0.3s ease; // Smooth color transition
+  transition: color 0.3s ease;
 }
 
 .about-me__content-container {
@@ -135,12 +139,15 @@
   display: none;
   @media (max-width: 1280px) {
     display: block;
-    font-size: clamp(2.4rem, 5vw, 3rem);
+    margin: 2.5rem auto 1rem;
     text-align: center;
   }
 }
 
 .meet-your-dev--desktop {
+  margin: 0 0 1rem;
+  font-size: 4rem;
+
   @media (max-width: 1280px) {
     display: none;
   }
@@ -258,13 +265,21 @@
 }
 
 .about-me__card {
-  // border-left: 5px solid $primary-color;
   background-color: white;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  // Ensure content stays above effects
+  > * {
+    position: relative;
+    z-index: 2;
+  }
 
   p {
     margin: 0;
@@ -272,7 +287,7 @@
     color: $secondary-text-color;
   }
 
-  h3 {
+  h3, h4 {
     margin: 0;
   }
 
@@ -284,6 +299,39 @@
 
   @media (max-width: 1280px) {
     margin-bottom: 4rem;
+  }
+}
+
+// Diagonal stripe effect - can be applied to any element
+.diagonal {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba($secondary-color, 0.3) 50%,
+      transparent 70%
+    );
+    transition: left 0.6s ease;
+    z-index: 1;
+  }
+
+  &:hover::before {
+    left: 100%;
+  }
+
+  // Ensure content stays above the effect
+  > * {
+    position: relative;
+    z-index: 2;
   }
 }
 

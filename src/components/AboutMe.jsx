@@ -39,7 +39,7 @@ const AboutMe = () => {
       </p>
 
       <div className="about-me__info-container">
-        <div className="about-me__info-box">
+        <div className="about-me__info-box info-box-1">
           <MonitorSmartphone className="about-me__icon" size={50} />
           <h4 className="">FULLY RESPONSIVE</h4>
           <p>
@@ -49,7 +49,7 @@ const AboutMe = () => {
             experience.
           </p>
         </div>
-        <div className="about-me__info-box">
+        <div className="about-me__info-box info-box-2">
           <Zap className="about-me__icon" size={50} />
           <h4 className="">OPTIMIZED PAGE SPEED</h4>
           <p>
@@ -59,7 +59,7 @@ const AboutMe = () => {
             and improving conversions.
           </p>
         </div>
-        <div className="about-me__info-box">
+        <div className="about-me__info-box info-box-3">
           <SearchCheck className="about-me__icon" size={50} />
           <h4 className="">SEO OPTIMIZED</h4>
           <p>
@@ -98,7 +98,7 @@ const AboutMe = () => {
         </div>
         <div className="about-me__text-container">
           <h2 className="meet-your-dev--desktop">Meet your developer...</h2>
-          <div className="about-me__card">
+          <div className="about-me__card diagonal">
             <h4 className="about-me__section-title text-blue">Who am I?</h4>
             <p className="">
               I'm Lee, an independent web developer from Sittingbourne, Kent,
@@ -109,7 +109,7 @@ const AboutMe = () => {
               choose the best approach that fits your needs.
             </p>
           </div>
-          <div className="about-me__card">
+          <div className="about-me__card diagonal">
             <h4 className="about-me__section-title text-blue">My Approach</h4>
             <p className="">
               I keep things simple because simple works. Clean layouts, easy
@@ -120,7 +120,7 @@ const AboutMe = () => {
             </p>
           </div>
 
-          <div className="about-me__card">
+          <div className="about-me__card diagonal">
             <h4 className="about-me__section-title text-blue">
               Who I Work With
             </h4>

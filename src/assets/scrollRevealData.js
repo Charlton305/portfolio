@@ -72,6 +72,37 @@ export const targetElements = [
     }
   },
   {
+    element: ".info-box-1",
+    animation: {
+      delay: 600
+    }
+  },
+  {
+    element: ".info-box-2",
+    animation: {
+      delay: window.innerWidth > 999 ? 900 : 600,
+    }
+  },
+  {
+    element: ".info-box-3",
+    animation: {
+      delay: window.innerWidth > 999 ? 1200 : 600,
+    }
+  },
+  {
+    element: ".get-in-touch-button",
+    animation: {
+      delay: 600,
+    }
+  },
+  {
+    element: ".meet-your-dev--mobile",
+    animation: {
+      delay: 600,
+      distance: "0px"
+    }
+  },
+  {
     element: ".about-me__img-container",
     animation: {
       delay: 600,
