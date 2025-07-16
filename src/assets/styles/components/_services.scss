@@ -46,6 +46,10 @@
   margin: 0;
   padding: 4rem 0;
   text-align: center;
+
+  @media (max-width: 1060px) {
+    padding-bottom: 2rem;
+  }
 }
 
 .services__grid {
@@ -90,15 +94,16 @@
     max-width: 100%;
   }
 
+  h3 {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
   h4 {
+    display: inline-block;
     font-size: 1.8rem;
   }
 }
-
-// .services__features-container {
-//   display: inline;
-//   margin: auto;
-// }
 
 .tick-icon {
   margin-right: 1.5rem;

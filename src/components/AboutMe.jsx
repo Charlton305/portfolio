@@ -51,7 +51,7 @@ const AboutMe = () => {
         </div>
         <div className="about-me__info-box info-box-2">
           <Zap className="about-me__icon" size={50} />
-          <h4 className="">OPTIMIZED PAGE SPEED</h4>
+          <h4 className="">LIGHTNING-FAST LOADING</h4>
           <p>
             Fast-loading websites keep visitors engaged and improve search
             rankings. I optimize images, streamline code, and use modern
@@ -135,7 +135,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <div className="about-me__card--get-started">
+      <div className="about-me__card--get-started diagonal">
         <h4 className="about-me__section-title text-blue">
           Ready To Get Started?
         </h4>
