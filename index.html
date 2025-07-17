@@ -1,31 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lee Charlton | Web Developer</title>
 
+    <!-- SEO Meta Tags -->
     <meta
       name="description"
-      content="Web designer and developer based in Sittingbourne, Kent" />
-    <meta property="og:title" content="Lee Charlton | Web Developer" />
+      content="Professional website design and development for small businesses. I create responsive, fast-loading, SEO-optimised websites that help your business grow."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Lee Charlton" />
+    <meta
+      name="keywords"
+      content="web developer, web designer, Kent, Sittingbourne, React, JavaScript, frontend developer, web development Kent, responsive design, website, websites."
+    />
+    <meta name="theme-color" content="#0383b2" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://charltonwebdev.com" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Lee Charlton - Web Developer"
+    />
     <meta
       property="og:description"
-      content="Web designer and developer based in Sittingbourne, Kent" />
-    <meta property="og:image" content="https://charltonwebdev.com/public/Logo-blue.png" />
+      content="Professional website design and development for small businesses. I create responsive, fast-loading, SEO-optimised websites that help your business grow."
+    />
+    <meta
+      property="og:image"
+      content="https://charltonwebdev.com/logo-blue.png"
+    />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://charltonwebdev.com" />
+    <meta property="og:site_name" content="Lee Charlton Web Developer" />
 
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Lee Charlton - Web Developer | Professional Small Business Websites"
+    />
+    <meta
+      name="twitter:description"
+      content="Professional website design and development for small businesses. I create responsive, fast-loading, SEO-optimised websites that help your business grow."
+    />
+    <meta
+      name="twitter:image"
+      content="https://charltonwebdev.com/logo-blue.png"
+    />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lee Charlton",
+        "jobTitle": "Web Developer",
+        "url": "https://charltonwebdev.com",
+        "image": "https://charltonwebdev.com/logo-blue.png",
+        "description": "Website designer and developer specialising in small business websites",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sittingbourne",
+          "addressRegion": "Kent",
+          "addressCountry": "UK"
+        },
+        "sameAs": ["https://github.com/Charlton305"],
+        "knowsAbout": [
+          "Web Development",
+          "Small Business Websites",
+          "Responsive Design",
+          "SEO Optimisation",
+          "Website Performance"
+        ]
+      }
+    </script>
+
+    <!-- Breadcrumb Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://charltonwebdev.com"
+          }
+        ]
+      }
+    </script>
+
+    <!-- Fonts -->
     <link
-      rel="preload"
+      rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700"
-      as="style" />
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link
       rel="icon"
       type="image/png"
-      href="/public/Favicon-32.png" />
+      sizes="192x192"
+      href="/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/android-chrome-512x512.png"
+    />
   </head>
-  <body>
-    <div style="overflow: hidden;" id="root"></div>
+  <body style="overflow-x: hidden">
+    <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

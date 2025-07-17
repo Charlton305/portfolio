@@ -9,9 +9,12 @@ const Contact = () => {
       <a href="#welcome" className="get-in-touch-button back-to-top">
         Back To top
       </a>
-      <p className="copyright">© CharltonWebDev {year}</p>
+      <p className="copyright">
+        © {year} Lee Charlton - Web Developer <br />
+        Trading as Charlton Web Development Limited (Company No: 16412334)
+      </p>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

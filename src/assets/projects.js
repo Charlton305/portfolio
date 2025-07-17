@@ -1,4 +1,3 @@
-import myLittleFrenchieimage from "./images/my-little-frenchie.jpg"
 import blogImage from "./images/blog.jpg"
 import expenseTrackerImage from "./images/expense-tracker-screenshot.png"
 import sCharltonImage from "./images/s-charlton-screenshot.webp"

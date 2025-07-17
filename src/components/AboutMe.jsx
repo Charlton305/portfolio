@@ -32,7 +32,7 @@ const AboutMe = () => {
         PROFESSIONAL WEBSITES WITH A PERSONAL TOUCH
       </h2>
       <p className="about-me__subheading">
-        At Charlton Web Development, I build professional, attractive websites
+        I design and build professional, attractive websites
         that help your business grow. I handle all the technical decisions
         whilst working closely with my clients, allowing as much or as little
         input as needed to achieve a truly personal experience...
@@ -41,7 +41,7 @@ const AboutMe = () => {
       <div className="about-me__info-container">
         <div className="about-me__info-box info-box-1">
           <MonitorSmartphone className="about-me__icon" size={50} />
-          <h4 className="">FULLY RESPONSIVE</h4>
+          <h3 className="">FULLY RESPONSIVE</h3>
           <p>
             Your website will look perfect and function flawlessly on all
             devices - from mobile phones to tablets to desktop computers. Every
@@ -51,17 +51,17 @@ const AboutMe = () => {
         </div>
         <div className="about-me__info-box info-box-2">
           <Zap className="about-me__icon" size={50} />
-          <h4 className="">LIGHTNING-FAST LOADING</h4>
+          <h3 className="">LIGHTNING-FAST LOADING</h3>
           <p>
             Fast-loading websites keep visitors engaged and improve search
-            rankings. I optimize images, streamline code, and use modern
+            rankings. I optimise images, streamline code, and use modern
             techniques to ensure your site loads quickly, reducing bounce rates
             and improving conversions.
           </p>
         </div>
         <div className="about-me__info-box info-box-3">
           <SearchCheck className="about-me__icon" size={50} />
-          <h4 className="">SEO OPTIMIZED</h4>
+          <h3 className="">SEO OPTIMISED</h3>
           <p>
             Built with search engines in mind from the ground up. Clean code
             structure, proper meta tags, fast loading speeds, and SEO best
@@ -93,24 +93,28 @@ const AboutMe = () => {
               </p>
               <p className="about-me__image-text-job">Web Developer</p>
             </div>
-            <img className="about-me__image-text-image" src={logo} />
+            <img
+              className="about-me__image-text-image"
+              src={logo}
+              alt="web dev logo"
+            />
           </div>
         </div>
         <div className="about-me__text-container">
           <h2 className="meet-your-dev--desktop">Meet your developer...</h2>
           <div className="about-me__card diagonal">
-            <h4 className="about-me__section-title text-blue">Who am I?</h4>
+            <h3 className="about-me__section-title text-blue">Who am I?</h3>
             <p className="">
               I'm Lee, an independent web developer from Sittingbourne, Kent,
               building professional websites and web apps for small businesses
-              around the world. I take pride in my work and the close
-              relationships I build with my clients. Whether that means coding
-              from scratch or using platforms such as Shopify and Webflow, I'll
-              choose the best approach that fits your needs.
+              and independent professionals. I take pride in my work and the
+              close relationships I build with my clients. Whether that means
+              coding from scratch or using platforms such as Shopify and
+              Webflow, I'll choose the best solution that fits your needs.
             </p>
           </div>
           <div className="about-me__card diagonal">
-            <h4 className="about-me__section-title text-blue">My Approach</h4>
+            <h3 className="about-me__section-title text-blue">My Approach</h3>
             <p className="">
               I keep things simple because simple works. Clean layouts, easy
               navigation and modern styling that doesn't get in the way of your
@@ -121,9 +125,9 @@ const AboutMe = () => {
           </div>
 
           <div className="about-me__card diagonal">
-            <h4 className="about-me__section-title text-blue">
+            <h3 className="about-me__section-title text-blue">
               Who I Work With
-            </h4>
+            </h3>
             <p>
               I work with all kinds of small businesses. Local pubs and
               restaurants looking to showcase their current menus and take
