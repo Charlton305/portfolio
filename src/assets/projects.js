@@ -1,12 +1,21 @@
 import blogImage from "./images/blog.jpg"
 import expenseTrackerImage from "./images/expense-tracker-screenshot.png"
 import sCharltonImage from "./images/s-charlton-screenshot.webp"
+import papermillImage from "./images/papermill.jpg"
 
 const projects = [
   {
-    title: "S.Charlton Builders - Construction firm",
+    title: "Local Micropub Website - The Papermill",
     textContent:
-      "This is a static website built for a local construction firm designed to showcase their work and provide details on the services they provide aswell as contact details and social media links.",
+      "A website for The Papermill, a local micropub, featuring opening hours, a gallery, and contact details. It also lets the owners manage and update their beers and events to keep customers informed.",
+    image: papermillImage,
+    liveSite: "https://pub.charltonwebdev.com/",
+    altText: "A screenshot of a micropub website.",
+  },
+  {
+    title: "S. Charlton Builders - Local Construction Specialists",
+    textContent:
+      "This static website was created for a local construction firm to highlight their expertise and showcase completed projects. It provides clear information about the services offered, along with easy access to contact details and social media links.",
     image: sCharltonImage,
     liveSite: "https://s-charlton-builders.charltonwebdev.com",
     altText: "A screenshot of a construction company website.",
@@ -14,7 +23,7 @@ const projects = [
   {
     title: "Travel blog",
     textContent:
-      "A blog website created with a CMS to give the user the ability to add and edit their own blog posts and images.",
+      "A dynamic website built with a content management system, giving the user full control to publish, update, and manage their own travel stories and photos.",
     image: blogImage,
     liveSite: "https://travel.charltonwebdev.com/",
     altText: "A screenshot of a travel blog website.",
@@ -22,7 +31,7 @@ const projects = [
   {
     title: "Expense tracker app",
     textContent:
-      "This is a basic expense tracker app designed to showcase my skills as a web developer. It allows the user to login, to add, update and delete expenses and to retrieve any existing data when they return to the app.",
+      "A simple web application built to demonstrate core development skills. Users can log in securely, record their expenses, update or remove entries, and access their saved data on return.",
     image: expenseTrackerImage,
     liveSite: "http://expensify.charltonwebdev.com",
     altText: "A screenshot of an expense tracker app.",
