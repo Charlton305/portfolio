@@ -102,6 +102,11 @@ const AboutMe = () => {
         </div>
         <div className="about-me__text-container">
           <h2 className="meet-your-dev--desktop">Meet your developer...</h2>
+          <p className="about-me__introduction">
+            I'm Lee, a web developer based in Kent who specializes in creating professional websites for small businesses. 
+            With a focus on clean design and practical functionality, I work directly with business owners to build 
+            websites that not only look great but actually help grow their business. Here's what makes working with me different:
+          </p>
           <div className="about-me__features-grid">
             <div className="about-me__point-card">
               <User className="about-me__point-icon" size={24} />
