@@ -79,7 +79,7 @@ const AboutMe = () => {
       </div>
 
       <div className="about-me__content-container">
-        <h2 className="meet-your-dev--mobile">Kent Based Web Development</h2>
+        <h2 className="meet-your-dev--mobile">Why Work With Me</h2>
         <div className="about-me__img-container">
           <img
             className="about-me__img"
@@ -101,7 +101,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="about-me__text-container">
-          <h2 className="meet-your-dev--desktop">Kent Based Web Development</h2>
+          <h2 className="meet-your-dev--desktop">Why Work With Me</h2>
           <p className="about-me__introduction">
             I'm Lee, a web developer based in Kent who specializes in creating professional websites for small businesses. 
             With a focus on clean design and practical functionality, I work directly with business owners to build 
