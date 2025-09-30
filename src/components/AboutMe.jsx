@@ -1,8 +1,8 @@
 import { useEffect } from "react"
 import photo from "../assets/images/photo-of-me-in-norway.jpg"
 import logo from "../assets/images/logo.svg"
+import { MonitorSmartphone, Zap, SearchCheck, User, Lightbulb, Briefcase, Heart, MapPin, Clock } from "lucide-react"
 
-import { MonitorSmartphone, Zap, SearchCheck, User, Lightbulb, Briefcase } from "lucide-react"
 
 const AboutMe = () => {
   useEffect(() => {
@@ -102,26 +102,47 @@ const AboutMe = () => {
         </div>
         <div className="about-me__text-container">
           <h2 className="meet-your-dev--desktop">Meet your developer...</h2>
-          <div className="about-me__points-grid">
+          <div className="about-me__features-grid">
             <div className="about-me__point-card">
-              <User className="about-me__point-icon" size={40} />
-              <h4 className="about-me__point-title">Who am I?</h4>
+              <User className="about-me__point-icon" size={24} />
+              <h4 className="about-me__point-title">KENT BASED</h4>
               <p className="about-me__point-description">
-                I'm Lee, an independent web developer from Kent, building professional websites for small businesses. I take pride in my work and close client relationships.
+                Local web developer based in Sittingbourne, Kent, providing personal service to businesses across the region.
               </p>
             </div>
             <div className="about-me__point-card">
-              <Lightbulb className="about-me__point-icon" size={40} />
-              <h4 className="about-me__point-title">My Approach</h4>
+              <Heart className="about-me__point-icon" size={24} />
+              <h4 className="about-me__point-title">PERSONAL TOUCH</h4>
               <p className="about-me__point-description">
-                I keep things simple because simple works. Clean layouts, easy navigation, and modern styling that doesn't get in the way of your message.
+                Direct communication with me throughout your project. No account managers or middlemen - just personal, dedicated service.
               </p>
             </div>
             <div className="about-me__point-card">
-              <Briefcase className="about-me__point-icon" size={40} />
-              <h4 className="about-me__point-title">Who I Work With</h4>
+              <Briefcase className="about-me__point-icon" size={24} />
+              <h4 className="about-me__point-title">SMALL BUSINESS FOCUS</h4>
               <p className="about-me__point-description">
-                Local businesses, restaurants, construction companies, and creative professionals - anyone who wants a website that works as hard as they do.
+                Specializing in websites for local businesses, tradespeople, restaurants, and service providers who need results.
+              </p>
+            </div>
+            <div className="about-me__point-card">
+              <Lightbulb className="about-me__point-icon" size={24} />
+              <h4 className="about-me__point-title">MODERN APPROACH</h4>
+              <p className="about-me__point-description">
+                Clean, simple designs that work. No unnecessary complexity - just websites that look great and convert visitors.
+              </p>
+            </div>
+            <div className="about-me__point-card">
+              <Clock className="about-me__point-icon" size={24} />
+              <h4 className="about-me__point-title">QUICK TURNAROUND</h4>
+              <p className="about-me__point-description">
+                Most projects completed within 2-4 weeks. I understand you need your website live quickly to start generating business.
+              </p>
+            </div>
+            <div className="about-me__point-card">
+              <MapPin className="about-me__point-icon" size={24} />
+              <h4 className="about-me__point-title">LOCAL MEETINGS</h4>
+              <p className="about-me__point-description">
+                Happy to meet in person across Kent to discuss your project over coffee. Building relationships, not just websites.
               </p>
             </div>
           </div>
