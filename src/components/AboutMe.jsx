@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import photo from "../assets/images/Photo-of-me-in-norway.jpg"
+import photo from "../assets/images/photo-of-me-in-norway.jpg"
 import logo from "../assets/images/logo.svg"
 
 import { MonitorSmartphone, Zap, SearchCheck } from "lucide-react"
