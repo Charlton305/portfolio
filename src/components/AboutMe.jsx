@@ -79,7 +79,7 @@ const AboutMe = () => {
       </div>
 
       <div className="about-me__content-container">
-        <h2 className="meet-your-dev--mobile">Meet your developer...</h2>
+        <h2 className="meet-your-dev--mobile">Kent Based Web Development</h2>
         <div className="about-me__img-container">
           <img
             className="about-me__img"
