@@ -8,6 +8,14 @@ export const defaultProps = {
 
 export const targetElements = [
   {
+    element: ".welcome-text-primary",
+    animation: {
+      delay: 100,
+      distance: "30px",
+      origin: window.innerWidth > 900 ? "left" : "bottom"
+    }
+  },
+  {
     element: ".welcome-text-secondary",
     animation: {
       delay: 500,

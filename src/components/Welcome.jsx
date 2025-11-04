@@ -80,7 +80,7 @@ const Welcome = () => {
   return (
     <div className="content-container welcome-container" id="welcome">
       <div className="welcome-text-container">
-        <h1 className="welcome-text-primary text-blue">LEE CHARLTON - WEB DEVELOPER</h1>
+        <h1 className="welcome-text-primary load-hidden text-blue">LEE CHARLTON - WEB DEVELOPER</h1>
         <h2 className="load-hidden welcome-text-secondary">
           Website designer and developer specialising in small business websites
         </h2>
