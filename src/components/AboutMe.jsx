@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import photo from '../assets/images/me-in-norway.jpg'
+import photox2 from '../assets/images/me-in-norway-x2.jpg'
 import logo from '../assets/images/logo.svg'
 
 import { MonitorSmartphone, Zap, SearchCheck } from 'lucide-react'
@@ -74,7 +75,15 @@ const AboutMe = () => {
       <div className='about-me__content-container'>
         <h2 className='meet-your-dev--mobile'>Meet your developer</h2>
         <div className='about-me__img-container'>
-          <img className='about-me__img' src={photo} alt='Lee Charlton in Lofoten islands in Norway' />
+          <img
+            className='about-me__img'
+            src={photo}
+            srcSet={`${photox2} 2x`}
+            width='600'
+            height='700'
+            alt='Lee Charlton in Lofoten islands in Norway'
+            loading='lazy'
+          />
           <div className='about-me__image-text-container'>
             <div>
               <p className='about-me__image-text-name text-blue'>Lee Charlton</p>

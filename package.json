@@ -11,6 +11,7 @@
     "start": "node server/server.cjs"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.2.8",
     "@reduxjs/toolkit": "^1.9.7",
     "lucide-react": "^0.525.0",
     "normalize.css": "^8.0.1",
