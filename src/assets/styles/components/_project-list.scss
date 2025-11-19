@@ -8,18 +8,13 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  margin-bottom: 6rem;
   max-width: 1360px;
 
   @media (max-width: 1000px) {
-    margin: 5rem auto;
+    margin: auto;
     max-width: 100%;
     width: 700px;
     text-align: center;
-  }
-
-  @media (max-width: 500px) {
-    margin-top: 5rem;
   }
 }
 

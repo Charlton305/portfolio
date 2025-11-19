@@ -2,14 +2,16 @@ import { useEffect } from "react"
 
 const Welcome = () => {
   useEffect(() => {
+    //I CANT REMEMBER WHY I ADDED THIS BUT AFTER REMOVING IT EVERYTHING SEEMS FINE SO IM LEAVING IT OUT FOR NOW
     // Viewport height fix for mobile
-    const setViewportHeight = () => {
-      const vh = window.innerHeight * 0.01
-      document.documentElement.style.setProperty("--vh", `${vh}px`)
-    }
+    // const setViewportHeight = () => {
+    //   const vh = window.innerHeight * 0.01
+    //   document.documentElement.style.setProperty("--vh", `${vh}px`)
+    // }
 
-    setViewportHeight()
-    window.addEventListener("orientationchange", setViewportHeight)
+    // setViewportHeight()
+    // window.addEventListener("resize", setViewportHeight)
+    // window.addEventListener("orientationchange", setViewportHeight)
 
     // Detect mobile devices
     const isMobile =
@@ -69,8 +71,8 @@ const Welcome = () => {
     })
 
     return () => {
-      window.removeEventListener("resize", setViewportHeight)
-      window.removeEventListener("orientationchange", setViewportHeight)
+      // window.removeEventListener("resize", setViewportHeight)
+      // window.removeEventListener("orientationchange", setViewportHeight)
       anchorLinks.forEach(link => {
         link.removeEventListener("click", handleSmoothScroll)
       })
