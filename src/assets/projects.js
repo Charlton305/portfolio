@@ -10,14 +10,38 @@ import papermillImage2x from './images/papermill-2x.jpg'
 import pinballImage from './images/pinball-screenshot.png'
 import pinballImage2x from './images/pinball-screenshot-2x.png'
 
+import pAndLReviewsImage from './images/p&l.jpg'
+import pAndLReviewsImage2x from './images/p&l2x.jpg'
+
+import rowburImage from './images/rowbur.jpg'
+import rowburImage2x from './images/rowbur2x.jpg'
+
 const projects = [
+  {
+    title: 'P and L Reviews - Rock & Metal Music Platform',
+    textContent:
+      "A rock and metal review website I built for a client who's passionate about music. They can add new album reviews and artist interviews themselves using a headless CMS setup, so they're never waiting on me to update content. Everything's coded from scratch to keep it fast and clean.",
+    image: pAndLReviewsImage,
+    image2x: pAndLReviewsImage2x,
+    liveSite: 'https://pandltunes.co.uk/',
+    altText: 'Screenshot of P and L Reviews music website.',
+  },
+  {
+    title: 'Rowbur Services - Automated Gate Specialists',
+    textContent:
+      "A website for a gate automation company operating across Sussex and Kent. I built this to showcase their work and make it easy for potential customers to see what they do and get in touch. It's a straightforward site that does exactly what they need - shows off their installations and gets them enquiries.",
+    image: rowburImage,
+    image2x: rowburImage2x,
+    liveSite: 'https://www.rowburservicesltd.co.uk/',
+    altText: 'Screenshot of Rowbur Services automated gates website.',
+  },
   {
     title: 'Local Micropub Website - The Papermill',
     textContent:
       'A website for The Papermill, a local micropub, featuring opening hours, a gallery, and contact details. It also lets the owners manage and update their beers and events to keep customers informed.',
     image: papermillImage,
     image2x: papermillImage2x,
-    liveSite: 'https://pub.charltonwebdev.com/',
+    liveSite: 'https://thepapermillmicropub.co.uk/',
     altText: 'A screenshot of a micropub website.',
   },
   {
