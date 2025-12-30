@@ -36,6 +36,15 @@ const projects = [
     altText: 'Screenshot of Rowbur Services automated gates website.',
   },
   {
+    title: 'Pinball Club Leaderboard App',
+    textContent:
+      'A web app designed for a local pinball club to track player scores and maintain competitive rankings. Features include secure user authentication, score submission, and dynamic leaderboards that encourage friendly competition. A test database has been set up specifically for portfolio visitors so feel free to create an account and submit scores to explore the full functionality!',
+    image: pinballImage,
+    image2x: pinballImage2x,
+    liveSite: 'https://2402671a.pinball-6g1.pages.dev/',
+    altText: 'Screenshot of the pinball club leaderboard application.',
+  },
+  {
     title: 'Local Micropub Website - The Papermill',
     textContent:
       'A website for The Papermill, a local micropub, featuring opening hours, a gallery, and contact details. It also lets the owners manage and update their beers and events to keep customers informed.',
@@ -43,15 +52,6 @@ const projects = [
     image2x: papermillImage2x,
     liveSite: 'https://thepapermillmicropub.co.uk/',
     altText: 'A screenshot of a micropub website.',
-  },
-  {
-    title: 'Pinball Club Leaderboard App',
-    textContent:
-      'A web app designed for a local pinball club to track player scores and maintain competitive rankings. Features include secure user authentication, score submission, and dynamic leaderboards that encourage friendly competition. A test database has been set up specifically for portfolio visitors so feel free to create an account and submit scores to explore the full functionality!',
-    image: pinballImage,
-    image2x: pinballImage2x,
-    liveSite: 'https://pinball.charltonwebdev.com/',
-    altText: 'Screenshot of the pinball club leaderboard application.',
   },
   // {
   //   title: 'S. Charlton Builders - Local Construction Specialists',
