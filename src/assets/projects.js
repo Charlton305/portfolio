@@ -53,15 +53,15 @@ const projects = [
     liveSite: 'https://pinball.charltonwebdev.com/',
     altText: 'Screenshot of the pinball club leaderboard application.',
   },
-  {
-    title: 'S. Charlton Builders - Local Construction Specialists',
-    textContent:
-      'This static website was created for a local construction firm to highlight their expertise and showcase completed projects. It provides clear information about the services offered, along with easy access to contact details and social media links.',
-    image: sCharltonImage,
-    image2x: sCharltonImage2x,
-    liveSite: 'https://s-charlton-builders.charltonwebdev.com',
-    altText: 'A screenshot of a construction company website.',
-  },
+  // {
+  //   title: 'S. Charlton Builders - Local Construction Specialists',
+  //   textContent:
+  //     'This static website was created for a local construction firm to highlight their expertise and showcase completed projects. It provides clear information about the services offered, along with easy access to contact details and social media links.',
+  //   image: sCharltonImage,
+  //   image2x: sCharltonImage2x,
+  //   liveSite: 'https://s-charlton-builders.charltonwebdev.com',
+  //   altText: 'A screenshot of a construction company website.',
+  // },
   {
     title: 'Travel blog',
     textContent:
