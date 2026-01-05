@@ -32,7 +32,7 @@ const projects = [
       "A website for a gate automation company operating across Sussex and Kent. I built this to showcase their work and make it easy for potential customers to see what they do and get in touch. It's a straightforward site that does exactly what they need - shows off their installations and gets them enquiries.",
     image: rowburImage,
     image2x: rowburImage2x,
-    liveSite: 'https://www.rowburservicesltd.co.uk/',
+    liveSite: 'https://rowburservicesltd.co.uk/',
     altText: 'Screenshot of Rowbur Services automated gates website.',
   },
   {
@@ -41,7 +41,7 @@ const projects = [
       'A web app designed for a local pinball club to track player scores and maintain competitive rankings. Features include secure user authentication, score submission, and dynamic leaderboards that encourage friendly competition. A test database has been set up specifically for portfolio visitors so feel free to create an account and submit scores to explore the full functionality!',
     image: pinballImage,
     image2x: pinballImage2x,
-    liveSite: 'https://2402671a.pinball-6g1.pages.dev/',
+    liveSite: 'https://pinball.charltonwebdev.com/',
     altText: 'Screenshot of the pinball club leaderboard application.',
   },
   {
