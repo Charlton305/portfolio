@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'Montserrat', arial, sans-serif;
   line-height: 1.6;
   color: $secondary-text-color;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  color: white
+  color: white;
 }
 
 h1 {
