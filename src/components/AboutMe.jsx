@@ -31,9 +31,10 @@ const AboutMe = () => {
     <div className='about-me' id='about'>
       <h2 className='about-me__heading'>PROFESSIONAL WEBSITES WITH A PERSONAL TOUCH</h2>
       <p className='about-me__subheading'>
-        I design and build professional, attractive websites that help your business grow. I handle
-        all the technical decisions whilst working closely with my clients, allowing as much or as
-        little input as needed to achieve a truly personal experience...
+        When you work with me, you're not handed off to a team or left chasing a support ticket.
+        I'm a solo developer, which means you'll always deal directly with the person building your
+        site. I handle everything from design to launch, and I'm always just a message away if you
+        need to talk something through.
       </p>
 
       <div className='about-me__info-container'>
