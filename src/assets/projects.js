@@ -1,8 +1,5 @@
-import blogImage from './images/blog.jpg'
-import blogImage2x from './images/blog-2x.jpg'
-
-import sCharltonImage from './images/s-charlton-screenshot.jpg'
-import sCharltonImage2x from './images/s-charlton-screenshot-2x.jpg'
+import diabloTattooImage from './images/diablo-tattoo.jpg'
+import diabloTattooImage2x from './images/diablo-tattoo-2x.jpg'
 
 import papermillImage from './images/papermill.jpg'
 import papermillImage2x from './images/papermill-2x.jpg'
@@ -17,6 +14,15 @@ import rowburImage from './images/rowbur.jpg'
 import rowburImage2x from './images/rowbur2x.jpg'
 
 const projects = [
+  {
+    title: 'Diablo Tattoo - Custom Tattoo Studio',
+    textContent:
+      'A custom, hand-coded website for a tattoo studio in Rochester, Kent. Built from scratch with Next.js and styled around their dark, bold brand identity. Each artist has a dedicated page with a gallery of their work, and the studio manages all their own content through a headless CMS.',
+    image: diabloTattooImage,
+    image2x: diabloTattooImage2x,
+    liveSite: 'https://diablotattoo.co.uk/',
+    altText: 'Screenshot of Diablo Tattoo website.',
+  },
   {
     title: 'P and L Reviews - Rock & Metal Music Platform',
     textContent:
@@ -52,24 +58,6 @@ const projects = [
     image2x: papermillImage2x,
     liveSite: 'https://thepapermillmicropub.co.uk/',
     altText: 'A screenshot of a micropub website.',
-  },
-  // {
-  //   title: 'S. Charlton Builders - Local Construction Specialists',
-  //   textContent:
-  //     'This static website was created for a local construction firm to highlight their expertise and showcase completed projects. It provides clear information about the services offered, along with easy access to contact details and social media links.',
-  //   image: sCharltonImage,
-  //   image2x: sCharltonImage2x,
-  //   liveSite: 'https://s-charlton-builders.charltonwebdev.com',
-  //   altText: 'A screenshot of a construction company website.',
-  // },
-  {
-    title: 'Travel blog',
-    textContent:
-      'A dynamic website built with a content management system, giving the user full control to publish, update, and manage their own travel stories and photos.',
-    image: blogImage,
-    image2x: blogImage2x,
-    liveSite: 'https://travel.charltonwebdev.com/',
-    altText: 'A screenshot of a travel blog website.',
   },
 ]
 
