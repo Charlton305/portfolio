@@ -3,7 +3,7 @@ import photo from '../assets/images/me-in-norway.jpg'
 import photox2 from '../assets/images/me-in-norway-x2.jpg'
 import logo from '../assets/images/logo.svg'
 
-import { MonitorSmartphone, Zap, SearchCheck } from 'lucide-react'
+import { MonitorSmartphone, SearchCheck, MessageCircle } from 'lucide-react'
 
 const AboutMe = () => {
   useEffect(() => {
@@ -31,10 +31,8 @@ const AboutMe = () => {
     <div className='about-me' id='about'>
       <h2 className='about-me__heading'>PROFESSIONAL WEBSITES WITH A PERSONAL TOUCH</h2>
       <p className='about-me__subheading'>
-        When you work with me, you're not handed off to a team or left chasing a support ticket.
-        I'm a solo developer, which means you'll always deal directly with the person building your
-        site. I handle everything from design to launch, and I'm always just a message away if you
-        need to talk something through.
+        I create professional hand-crafted websites and web apps for UK businesses, focusing on
+        modern design and high performance with a friendly, personal approach.
       </p>
 
       <div className='about-me__info-container'>
@@ -43,17 +41,17 @@ const AboutMe = () => {
           <h3 className=''>FULLY RESPONSIVE</h3>
           <p>
             Your website will look perfect and function flawlessly on all devices - from mobile
-            phones to tablets to desktop computers. Every element adapts beautifully to any screen
-            size for the best user experience.
+            phones to tablets to desktop computers. Every element adapts to any screen size for the
+            best user experience.
           </p>
         </div>
         <div className='about-me__info-box info-box-2'>
-          <Zap className='about-me__icon' size={50} />
-          <h3 className=''>LIGHTNING-FAST LOADING</h3>
+          <MessageCircle className='about-me__icon' size={50} />
+          <h3 className=''>DIRECT COMMUNICATION</h3>
           <p>
-            Fast-loading websites keep visitors engaged and improve search rankings. I optimise
-            images, streamline code, and use modern techniques to ensure your site loads quickly,
-            reducing bounce rates and improving conversions.
+            No chasing emails, being passed around or put on hold. You deal directly with me
+            throughout your entire project, meaning quick responses, clear updates and someone who
+            knows your site inside out.
           </p>
         </div>
         <div className='about-me__info-box info-box-3'>
@@ -75,7 +73,7 @@ const AboutMe = () => {
       </div>
 
       <div className='about-me__content-container'>
-        <h2 className='meet-your-dev--mobile'>Meet your developer</h2>
+        <h2 className='meet-your-dev--mobile'>About me...</h2>
         <div className='about-me__img-container'>
           <img
             className='about-me__img'
@@ -95,23 +93,22 @@ const AboutMe = () => {
           </div>
         </div>
         <div className='about-me__text-container'>
-          <h2 className='meet-your-dev--desktop'>Meet your developer</h2>
+          <h2 className='meet-your-dev--desktop'>About me...</h2>
           <div className='about-me__card diagonal'>
             <h3 className='about-me__section-title text-blue'>Who am I?</h3>
             <p className=''>
-              I'm Lee, a freelance web developer from Sittingbourne, Kent. I create high-quality,
-              custom-built websites and web apps for small businesses and solo professionals. With
-              the ability to write clean, professional code, I can either create something
-              completely original or work with templating platforms like Shopify and Webflow -
-              whatever suits your project best.
+              I'm Lee, a freelance web developer from Sittingbourne, Kent. I design, build and
+              maintain websites and web apps for small businesses and solo professionals. I work
+              closely with my clients, keeping things relaxed and approachable at all times, meaning
+              none of the jargon or overheads you get with larger agencies.
             </p>
           </div>
           <div className='about-me__card diagonal'>
             <h3 className='about-me__section-title text-blue'>My Approach</h3>
             <p className=''>
-              I keep things simple because simple works. Clean layouts, easy navigation and modern
-              styling that doesn't get in the way of your message. No fancy tricks or confusing
-              menus - just websites that look professional and make sense to your visitors.
+              My hand coded sites are designed with clean layouts, easy navigation and modern styling so your
+              visitors can find exactly what they need. No unnecessary clutter or confusing menus,
+              just a clear, professional structure that makes your site easy to use.
             </p>
           </div>
 
@@ -128,10 +125,7 @@ const AboutMe = () => {
       </div>
       <div className='about-me__card--get-started diagonal'>
         <h3 className='about-me__cta-title text-blue'>Ready To Get Started?</h3>
-        <p>
-          I'd love to hear about your project. Get in touch for a no-pressure chat about what we can
-          create together.
-        </p>
+        <p>Get in touch for a no-pressure chat.</p>
         <div className='about-me__contact-details--button-container'>
           <a className='cta-btn' href='#contact'>
             Contact
