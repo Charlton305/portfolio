@@ -73,7 +73,7 @@ const AboutMe = () => {
       </div>
 
       <div className='about-me__content-container'>
-        <h2 className='meet-your-dev--mobile'>About me...</h2>
+        <h2 className='meet-your-dev--mobile'>Meet Your Developer</h2>
         <div className='about-me__img-container'>
           <img
             className='about-me__img'
@@ -93,7 +93,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className='about-me__text-container'>
-          <h2 className='meet-your-dev--desktop'>About me...</h2>
+          <h2 className='meet-your-dev--desktop'>Meet Your Developer</h2>
           <div className='about-me__card diagonal'>
             <h3 className='about-me__section-title text-blue'>Who am I?</h3>
             <p className=''>
